@@ -1,14 +1,20 @@
 import { Component, OnInit } from '@angular/core'
 import * as ol from 'openlayers'
 @Component({
-  selector: 'app-map-demo1',
-  templateUrl: './map-demo1.component.html',
-  styleUrls: ['./map-demo1.component.scss']
+  selector: 'app-map-mouse-position',
+  templateUrl: './map-mouse-position.component.html',
+  styleUrls: ['./map-mouse-position.component.scss']
 })
-export class MapDemo1Component implements OnInit {
+export class MapMousePositionComponent implements OnInit {
   constructor() {}
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  ngAfterViewInit(): void {
+    this.initMap()
+  }
+
+  initMap() {
     let map = new ol.Map({
       target: 'map',
       layers: [
@@ -22,6 +28,5 @@ export class MapDemo1Component implements OnInit {
         zoom: 0
       })
     })
-    console.log(map.getControls().getArray())
   }
 }

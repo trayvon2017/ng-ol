@@ -1,5 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
-.map {
-  height: 100%;
+@import './assets/ol.css';
+
+// .map-container {
+//   height: 600px;
+//   width: 100%;
+// }
+#map {
+  height: 600px;
   width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-left: 10px;
+  }
 }

@@ -1,14 +1,19 @@
 import { Component, OnInit } from '@angular/core'
 import * as ol from 'openlayers'
 @Component({
-  selector: 'app-map-demo1',
-  templateUrl: './map-demo1.component.html',
-  styleUrls: ['./map-demo1.component.scss']
+  selector: 'app-map-overview-map',
+  templateUrl: './map-overview-map.component.html',
+  styleUrls: ['./map-overview-map.component.scss']
 })
-export class MapDemo1Component implements OnInit {
+export class MapOverviewMapComponent implements OnInit {
   constructor() {}
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  ngAfterViewInit(): void {
+    this.initMap()
+  }
+  initMap() {
     let map = new ol.Map({
       target: 'map',
       layers: [
@@ -20,8 +25,8 @@ export class MapDemo1Component implements OnInit {
         projection: 'EPSG:3857',
         center: [0, 0],
         zoom: 0
-      })
+      }),
+      controls: ol.control.defaults().extend([new ol.control.OverviewMap()])
     })
-    console.log(map.getControls().getArray())
   }
 }
