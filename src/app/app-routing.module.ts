@@ -10,6 +10,8 @@ import { MapLayerSwitchComponent } from './map/map-layer-switch/map-layer-switch
 import { MapTileCoordinateComponent } from './map/map-tile-coordinate/map-tile-coordinate.component'
 import { MapResolutionComponent } from './map/map-resolution/map-resolution.component'
 import { MapOsmXyzComponent } from './map/map-osm-xyz/map-osm-xyz.component'
+import { MapBaiduXyzComponent } from './map/map-baidu-xyz/map-baidu-xyz.component'
+import { MapVectorSourceComponent } from './map/map-vector-source/map-vector-source.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -21,6 +23,8 @@ const routes: Routes = [
   { path: 'map-tile-coordinate', component: MapTileCoordinateComponent },
   { path: 'map-resolution', component: MapResolutionComponent },
   { path: 'map-osm-xyz', component: MapOsmXyzComponent },
+  { path: 'map-baidu-xyz', component: MapBaiduXyzComponent },
+  { path: 'map-vector-source', component: MapVectorSourceComponent },
   { path: 'map-overview-map', component: MapOverviewMapComponent }
 ]
 

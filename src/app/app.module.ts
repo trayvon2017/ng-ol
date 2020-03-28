@@ -19,6 +19,8 @@ import { MapLayerSwitchComponent } from './map/map-layer-switch/map-layer-switch
 import { MapTileCoordinateComponent } from './map/map-tile-coordinate/map-tile-coordinate.component';
 import { MapResolutionComponent } from './map/map-resolution/map-resolution.component';
 import { MapOsmXyzComponent } from './map/map-osm-xyz/map-osm-xyz.component';
+import { MapBaiduXyzComponent } from './map/map-baidu-xyz/map-baidu-xyz.component';
+import { MapVectorSourceComponent } from './map/map-vector-source/map-vector-source.component';
 
 registerLocaleData(zh);
 
@@ -34,7 +36,9 @@ registerLocaleData(zh);
     MapLayerSwitchComponent,
     MapTileCoordinateComponent,
     MapResolutionComponent,
-    MapOsmXyzComponent
+    MapOsmXyzComponent,
+    MapBaiduXyzComponent,
+    MapVectorSourceComponent
   ],
   imports: [
     BrowserModule,
