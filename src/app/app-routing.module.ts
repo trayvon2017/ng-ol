@@ -12,6 +12,9 @@ import { MapResolutionComponent } from './map/map-resolution/map-resolution.comp
 import { MapOsmXyzComponent } from './map/map-osm-xyz/map-osm-xyz.component'
 import { MapBaiduXyzComponent } from './map/map-baidu-xyz/map-baidu-xyz.component'
 import { MapVectorSourceComponent } from './map/map-vector-source/map-vector-source.component'
+import { MapWmsSingleImageComponent } from './map/map-wms/map-wms-single-image.component'
+import { MapWmsTileComponent } from './map/map-wms/map-wms-tile.component'
+import { MapDrawStyleComponent } from './map/map-draw-style/map-draw-style.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -25,6 +28,9 @@ const routes: Routes = [
   { path: 'map-osm-xyz', component: MapOsmXyzComponent },
   { path: 'map-baidu-xyz', component: MapBaiduXyzComponent },
   { path: 'map-vector-source', component: MapVectorSourceComponent },
+  { path: 'map-wms-single-image', component: MapWmsSingleImageComponent },
+  { path: 'map-wms-tile', component: MapWmsTileComponent },
+  { path: 'map-draw-style', component: MapDrawStyleComponent },
   { path: 'map-overview-map', component: MapOverviewMapComponent }
 ]
 
