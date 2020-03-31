@@ -27,7 +27,8 @@ import { MapDrawStyleComponent } from './map/map-draw-style/map-draw-style.compo
 import { MapEditGraphicComponent } from './map/map-edit-graphic/map-edit-graphic.component';
 import { MapLabelTextComponent } from './map/map-label-text/map-label-text.component';
 import { MapLabelImageComponent } from './map/map-label-image/map-label-image.component';
-import { MapLabelOverlayComponent } from './map/map-label-overlay/map-label-overlay.component'
+import { MapLabelOverlayComponent } from './map/map-label-overlay/map-label-overlay.component';
+import { MapAnimationComponent } from './map/map-animation/map-animation.component'
 
 registerLocaleData(zh)
 
@@ -52,7 +53,8 @@ registerLocaleData(zh)
     MapEditGraphicComponent,
     MapLabelTextComponent,
     MapLabelImageComponent,
-    MapLabelOverlayComponent
+    MapLabelOverlayComponent,
+    MapAnimationComponent
   ],
   imports: [
     BrowserModule,

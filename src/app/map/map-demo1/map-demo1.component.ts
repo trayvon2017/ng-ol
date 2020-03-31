@@ -16,6 +16,11 @@ export class MapDemo1Component implements OnInit {
           source: new ol.source.OSM()
         })
       ],
+      controls: ol.control.defaults({
+        attributionOptions: {
+          collapsible: false
+        }
+      }),
       view: new ol.View({
         projection: 'EPSG:3857',
         center: [0, 0],
@@ -23,5 +28,11 @@ export class MapDemo1Component implements OnInit {
       })
     })
     console.log(map.getControls().getArray())
+
+    setTimeout(() => {
+      map.getView().animate({
+        zoom: 13
+      })
+    }, 2000)
   }
 }
