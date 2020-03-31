@@ -40,13 +40,23 @@ export class MapAnimationComponent implements OnInit {
   rotateLeft() {
     this.rotation = this.view.getRotation()
     this.view.animate({
-      rotation: this.rotation + Math.PI
+      rotation: this.rotation + Math.PI / 2
     })
   }
 
-  rotateRight() {}
+  rotateRight() {
+    this.rotation = this.view.getRotation()
+    this.view.animate({
+      rotation: this.rotation - Math.PI / 2
+    })
+  }
 
-  pan(des) {}
+  pan(des) {
+    this.view.animate({
+      center: des,
+      duration: 2000
+    })
+  }
   elastic(des) {}
   bounce(des) {}
   spin(des) {}
