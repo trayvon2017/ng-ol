@@ -1,0 +1,12 @@
+<nz-select
+  [(ngModel)]="currentType"
+  (ngModelChange)="onTypeChanged($event)"
+  nzPlaceHolder="Choose"
+>
+  <nz-option
+    *ngFor="let item of typeList"
+    [nzValue]="item"
+    [nzLabel]="item"
+  ></nz-option>
+</nz-select>
+<div id="map"></div>

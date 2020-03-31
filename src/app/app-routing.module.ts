@@ -15,6 +15,10 @@ import { MapVectorSourceComponent } from './map/map-vector-source/map-vector-sou
 import { MapWmsSingleImageComponent } from './map/map-wms/map-wms-single-image.component'
 import { MapWmsTileComponent } from './map/map-wms/map-wms-tile.component'
 import { MapDrawStyleComponent } from './map/map-draw-style/map-draw-style.component'
+import { MapEditGraphicComponent } from './map/map-edit-graphic/map-edit-graphic.component'
+import { MapLabelTextComponent } from './map/map-label-text/map-label-text.component'
+import { MapLabelImageComponent } from './map/map-label-image/map-label-image.component'
+import { MapLabelOverlayComponent } from './map/map-label-overlay/map-label-overlay.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -31,6 +35,10 @@ const routes: Routes = [
   { path: 'map-wms-single-image', component: MapWmsSingleImageComponent },
   { path: 'map-wms-tile', component: MapWmsTileComponent },
   { path: 'map-draw-style', component: MapDrawStyleComponent },
+  { path: 'map-edit-graphic', component: MapEditGraphicComponent },
+  { path: 'map-label-text', component: MapLabelTextComponent },
+  { path: 'map-label-image', component: MapLabelImageComponent },
+  { path: 'map-label-overlay', component: MapLabelOverlayComponent },
   { path: 'map-overview-map', component: MapOverviewMapComponent }
 ]
 

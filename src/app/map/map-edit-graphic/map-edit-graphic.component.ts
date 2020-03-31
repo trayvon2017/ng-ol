@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core'
 import * as ol from 'openlayers'
 @Component({
-  selector: 'app-map-draw-style',
-  templateUrl: './map-draw-style.component.html',
+  selector: 'app-map-edit-graphic',
+  templateUrl: './map-edit-graphic.component.html',
   styles: []
 })
-export class MapDrawStyleComponent implements OnInit {
+export class MapEditGraphicComponent implements OnInit {
   currentType = 'Point'
   typeList = [
     'Point',
@@ -16,60 +16,54 @@ export class MapDrawStyleComponent implements OnInit {
     'Box',
     'None'
   ]
-  currenMap: ol.Map
-  currentDrawInteraction
   vectorSource: ol.source.Vector
+  vectorLayer: ol.layer.Vector
+  map: ol.Map
+  currentDrawInteraction: ol.interaction.Draw
+  snapInteraction: ol.interaction.Snap
+
   constructor() {}
 
   ngOnInit() {}
 
   ngAfterViewInit(): void {
+    //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
+    //Add 'implements AfterViewInit' to the class.
     this.initMap()
   }
   initMap() {
-    this.vectorSource = new ol.source.Vector({
-      wrapX: false
-    })
-    let vectorLayer = new ol.layer.Vector({
-      source: this.vectorSource,
-      style: new ol.style.Style({
-        image: new ol.style.Circle({
-          fill: new ol.style.Fill({
-            color: '#F00'
-          }),
-          radius: 5
-        }),
-        stroke: new ol.style.Stroke({
-          color: '#0F0',
-          lineCap: 'round',
-          width: 5
-        }),
-        fill: new ol.style.Fill({
-          color: '#00F'
-        })
-      })
-    })
-
-    this.currenMap = new ol.Map({
+    this.vectorSource = new ol.source.Vector()
+    this.vectorLayer = new ol.layer.Vector({ source: this.vectorSource })
+    this.map = new ol.Map({
       target: 'map',
       layers: [
         new ol.layer.Tile({
           source: new ol.source.OSM()
         }),
-        vectorLayer
+        this.vectorLayer
       ],
       view: new ol.View({
-        // projection: 'EPSG:3857',
         center: [0, 0],
         zoom: 0
       })
     })
+    this.map.addInteraction(
+      new ol.interaction.Modify({
+        source: this.vectorSource,
+        deleteCondition: function(event) {
+          console.log(event)
+          return false
+        }
+      })
+    )
     this.onTypeChanged(this.currentType)
   }
 
   onTypeChanged(type) {
     this.currentDrawInteraction &&
-      this.currenMap.removeInteraction(this.currentDrawInteraction)
+      this.map.removeInteraction(this.currentDrawInteraction)
+    this.snapInteraction && this.map.removeInteraction(this.snapInteraction)
+
     let geometryFunction
     if (type != 'None') {
       switch (type) {
@@ -89,7 +83,11 @@ export class MapDrawStyleComponent implements OnInit {
         type,
         geometryFunction
       })
-      this.currenMap.addInteraction(this.currentDrawInteraction)
+      this.snapInteraction = new ol.interaction.Snap({
+        source: this.vectorSource
+      })
+      this.map.addInteraction(this.currentDrawInteraction)
+      this.map.addInteraction(this.snapInteraction)
     }
   }
 }
