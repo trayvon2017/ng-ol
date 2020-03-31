@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core'
 import * as ol from 'openlayers'
-import { MapLabelImageComponent } from '../map-label-image/map-label-image.component'
 @Component({
   selector: 'app-map-label-overlay',
   templateUrl: './map-label-overlay.component.html',
