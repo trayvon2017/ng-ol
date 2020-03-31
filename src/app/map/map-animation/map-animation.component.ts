@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core'
 import * as ol from 'openlayers'
+import { elastic, bounce } from './easing'
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast'
 @Component({
   selector: 'app-map-animation',
   templateUrl: './map-animation.component.html',
@@ -57,10 +59,102 @@ export class MapAnimationComponent implements OnInit {
       duration: 2000
     })
   }
-  elastic(des) {}
-  bounce(des) {}
-  spin(des) {}
-  fly(des) {}
-  rotateAround(des) {}
-  tour() {}
+  elastic(des) {
+    this.view.animate({
+      center: des,
+      duration: 2000,
+      easing: elastic
+    })
+  }
+  bounce(des) {
+    this.view.animate({
+      center: des,
+      duration: 2000,
+      easing: bounce
+    })
+  }
+  spin(des) {
+    this.rotation = this.view.getRotation()
+    let center = this.view.getCenter()
+    this.view.animate(
+      {
+        center: [
+          center[0] + (des[0] - center[0]) / 2,
+          center[1] + (des[1] - center[1]) / 2
+        ],
+        rotation: this.rotation + Math.PI,
+        duration: 1000,
+        easing: ol.easing.easeIn
+      },
+      {
+        center: des,
+        rotation: this.rotation + Math.PI * 2,
+        duration: 1000,
+        easing: ol.easing.easeOut
+      }
+    )
+  }
+  fly(des, done?) {
+    let zoom = this.view.getZoom()
+    let step = 2
+    let called = false
+    let duration = 2000
+    function callback(complete) {
+      --step
+      if (called) return
+      if (step === 0 || !complete) {
+        called = true
+        done && done(complete)
+      }
+    }
+    this.view.animate(
+      {
+        center: des,
+        duration
+      },
+      callback
+    )
+    this.view.animate(
+      {
+        zoom: zoom - 1,
+        duration: duration / 2
+      },
+      {
+        zoom: zoom,
+        duration: duration / 2
+      },
+      callback
+    )
+  }
+  rotateAround(des) {
+    this.rotation = this.view.getRotation()
+    this.view.animate(
+      {
+        rotation: this.rotation + Math.PI,
+        anchor: des,
+        easing: ol.easing.easeIn
+      },
+      {
+        rotation: this.rotation + Math.PI * 2,
+        anchor: des,
+        easing: ol.easing.easeOut
+      }
+    )
+  }
+  onTour = false
+  tour() {
+    this.onTour = true
+    const desArr = [this.rome, this.moscow, this.istanbul, this.rome, this.bern]
+    // 随机去的地方
+    let index = Math.floor(Math.random() * 5)
+    // 随机旅行天数
+    let days = Math.floor(Math.random() * 7) + 1
+    const that = this
+    function done(complete) {
+      if (--days !== 0) {
+        that.fly(desArr[index], done)
+      }
+    }
+    this.fly(desArr[index], done)
+  }
 }
