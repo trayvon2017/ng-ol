@@ -32,7 +32,8 @@ export class MapAnimationComponent implements OnInit {
       view: new ol.View({
         zoom: 4,
         center: [0, 0]
-      })
+      }),
+      loadTilesWhileAnimating: true
     }).getView()
   }
 
