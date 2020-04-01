@@ -28,7 +28,9 @@ import { MapEditGraphicComponent } from './map/map-edit-graphic/map-edit-graphic
 import { MapLabelTextComponent } from './map/map-label-text/map-label-text.component';
 import { MapLabelImageComponent } from './map/map-label-image/map-label-image.component';
 import { MapLabelOverlayComponent } from './map/map-label-overlay/map-label-overlay.component';
-import { MapAnimationComponent } from './map/map-animation/map-animation.component'
+import { MapAnimationComponent } from './map/map-animation/map-animation.component';
+import { MapOverlayComponent } from './map/map-overlay/map-overlay.component';
+import { MakerComponent } from './map/map-overlay/maker/maker.component'
 
 registerLocaleData(zh)
 
@@ -54,7 +56,9 @@ registerLocaleData(zh)
     MapLabelTextComponent,
     MapLabelImageComponent,
     MapLabelOverlayComponent,
-    MapAnimationComponent
+    MapAnimationComponent,
+    MapOverlayComponent,
+    MakerComponent
   ],
   imports: [
     BrowserModule,

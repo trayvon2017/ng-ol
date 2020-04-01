@@ -20,6 +20,7 @@ import { MapLabelTextComponent } from './map/map-label-text/map-label-text.compo
 import { MapLabelImageComponent } from './map/map-label-image/map-label-image.component'
 import { MapLabelOverlayComponent } from './map/map-label-overlay/map-label-overlay.component'
 import { MapAnimationComponent } from './map/map-animation/map-animation.component'
+import { MapOverlayComponent } from './map/map-overlay/map-overlay.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -41,6 +42,7 @@ const routes: Routes = [
   { path: 'map-label-image', component: MapLabelImageComponent },
   { path: 'map-label-overlay', component: MapLabelOverlayComponent },
   { path: 'map-animation', component: MapAnimationComponent },
+  { path: 'map-overlay', component: MapOverlayComponent },
   { path: 'map-overview-map', component: MapOverviewMapComponent }
 ]
 
