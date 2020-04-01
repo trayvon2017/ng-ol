@@ -32,7 +32,8 @@ export class MapOverlayComponent implements OnInit {
       // position: pos,
       // positioning: 'center-center',
       element: this.marker.getNativeElement(),
-      stopEvent: true
+      stopEvent: true,
+      autoPan: true
     })
     map.addOverlay(this.overlay)
     const that = this
