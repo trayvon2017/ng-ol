@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import * as ol from 'openlayers'
 import { elastic, bounce } from './easing'
-import { THIS_EXPR } from '@angular/compiler/src/output/output_ast'
 @Component({
   selector: 'app-map-animation',
   templateUrl: './map-animation.component.html',
@@ -99,6 +98,7 @@ export class MapAnimationComponent implements OnInit {
     let step = 2
     let called = false
     let duration = 2000
+
     function callback(complete) {
       --step
       if (called) return
@@ -146,13 +146,16 @@ export class MapAnimationComponent implements OnInit {
     this.onTour = true
     const desArr = [this.rome, this.moscow, this.istanbul, this.rome, this.bern]
     // 随机去的地方
-    let index = Math.floor(Math.random() * 5)
     // 随机旅行天数
     let days = Math.floor(Math.random() * 7) + 1
     const that = this
+    let index = Math.floor(Math.random() * 5)
     function done(complete) {
       if (--days !== 0) {
-        that.fly(desArr[index], done)
+        index = Math.floor(Math.random() * 5)
+        setTimeout(() => {
+          that.fly(desArr[index], done)
+        }, 500)
       }
     }
     this.fly(desArr[index], done)
