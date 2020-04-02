@@ -24,13 +24,18 @@ import { MapVectorSourceComponent } from './map/map-vector-source/map-vector-sou
 import { MapWmsSingleImageComponent } from './map/map-wms/map-wms-single-image.component'
 import { MapWmsTileComponent } from './map/map-wms/map-wms-tile.component'
 import { MapDrawStyleComponent } from './map/map-draw-style/map-draw-style.component'
-import { MapEditGraphicComponent } from './map/map-edit-graphic/map-edit-graphic.component';
-import { MapLabelTextComponent } from './map/map-label-text/map-label-text.component';
-import { MapLabelImageComponent } from './map/map-label-image/map-label-image.component';
-import { MapLabelOverlayComponent } from './map/map-label-overlay/map-label-overlay.component';
-import { MapAnimationComponent } from './map/map-animation/map-animation.component';
-import { MapOverlayComponent } from './map/map-overlay/map-overlay.component';
+import { MapEditGraphicComponent } from './map/map-edit-graphic/map-edit-graphic.component'
+import { MapLabelTextComponent } from './map/map-label-text/map-label-text.component'
+import { MapLabelImageComponent } from './map/map-label-image/map-label-image.component'
+import { MapLabelOverlayComponent } from './map/map-label-overlay/map-label-overlay.component'
+import { MapAnimationComponent } from './map/map-animation/map-animation.component'
+import { MapOverlayComponent } from './map/map-overlay/map-overlay.component'
 import { MakerComponent } from './map/map-overlay/maker/maker.component'
+import { BoxSelectionComponent } from './map/box-selection/box-selection.component'
+import { StylingFeatureWithCanvasComponent } from './map/styling-feature-with-canvas/styling-feature-with-canvas.component'
+import { AdvancedViewPositioningComponent } from './map/advanced-view-positioning/advanced-view-positioning.component'
+import { ClusteredFeaturesComponent } from './map/clustered-features/clustered-features.component'
+import { CustomControlComponent } from './map/custom-control/custom-control.component'
 
 registerLocaleData(zh)
 
@@ -58,7 +63,12 @@ registerLocaleData(zh)
     MapLabelOverlayComponent,
     MapAnimationComponent,
     MapOverlayComponent,
-    MakerComponent
+    MakerComponent,
+    BoxSelectionComponent,
+    StylingFeatureWithCanvasComponent,
+    AdvancedViewPositioningComponent,
+    ClusteredFeaturesComponent,
+    CustomControlComponent
   ],
   imports: [
     BrowserModule,

@@ -21,6 +21,11 @@ import { MapLabelImageComponent } from './map/map-label-image/map-label-image.co
 import { MapLabelOverlayComponent } from './map/map-label-overlay/map-label-overlay.component'
 import { MapAnimationComponent } from './map/map-animation/map-animation.component'
 import { MapOverlayComponent } from './map/map-overlay/map-overlay.component'
+import { BoxSelectionComponent } from './map/box-selection/box-selection.component'
+import { StylingFeatureWithCanvasComponent } from './map/styling-feature-with-canvas/styling-feature-with-canvas.component'
+import { AdvancedViewPositioningComponent } from './map/advanced-view-positioning/advanced-view-positioning.component'
+import { ClusteredFeaturesComponent } from './map/clustered-features/clustered-features.component'
+import { CustomControlComponent } from './map/custom-control/custom-control.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -43,6 +48,23 @@ const routes: Routes = [
   { path: 'map-label-overlay', component: MapLabelOverlayComponent },
   { path: 'map-animation', component: MapAnimationComponent },
   { path: 'map-overlay', component: MapOverlayComponent },
+  { path: 'box-selection', component: BoxSelectionComponent },
+  {
+    path: 'style-feature-with-canvas',
+    component: StylingFeatureWithCanvasComponent
+  },
+  {
+    path: 'advanced-view-positioning',
+    component: AdvancedViewPositioningComponent
+  },
+  {
+    path: 'clustered-features',
+    component: ClusteredFeaturesComponent
+  },
+  {
+    path: 'custom-control',
+    component: CustomControlComponent
+  },
   { path: 'map-overview-map', component: MapOverviewMapComponent }
 ]
 
