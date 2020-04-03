@@ -3,7 +3,7 @@ export class RotateSouth extends ol.control.Control {
   constructor(opts?) {
     console.log(opts)
     let button = document.createElement('button')
-    button.innerHTML = 'N'
+    button.innerHTML = 'S'
     let element = document.createElement('div')
     element.className = 'rotate-north ol-unselectable ol-control'
     element.append(button)
