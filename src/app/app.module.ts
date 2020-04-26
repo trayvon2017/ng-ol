@@ -35,7 +35,8 @@ import { BoxSelectionComponent } from './map/box-selection/box-selection.compone
 import { StylingFeatureWithCanvasComponent } from './map/styling-feature-with-canvas/styling-feature-with-canvas.component'
 import { AdvancedViewPositioningComponent } from './map/advanced-view-positioning/advanced-view-positioning.component'
 import { ClusteredFeaturesComponent } from './map/clustered-features/clustered-features.component'
-import { CustomControlComponent } from './map/custom-control/custom-control.component'
+import { CustomControlComponent } from './map/custom-control/custom-control.component';
+import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component'
 
 registerLocaleData(zh)
 
@@ -68,7 +69,8 @@ registerLocaleData(zh)
     StylingFeatureWithCanvasComponent,
     AdvancedViewPositioningComponent,
     ClusteredFeaturesComponent,
-    CustomControlComponent
+    CustomControlComponent,
+    MapFeatureRippleComponent
   ],
   imports: [
     BrowserModule,

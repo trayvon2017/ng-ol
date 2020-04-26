@@ -26,6 +26,7 @@ import { StylingFeatureWithCanvasComponent } from './map/styling-feature-with-ca
 import { AdvancedViewPositioningComponent } from './map/advanced-view-positioning/advanced-view-positioning.component'
 import { ClusteredFeaturesComponent } from './map/clustered-features/clustered-features.component'
 import { CustomControlComponent } from './map/custom-control/custom-control.component'
+import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -51,25 +52,29 @@ const routes: Routes = [
   { path: 'box-selection', component: BoxSelectionComponent },
   {
     path: 'style-feature-with-canvas',
-    component: StylingFeatureWithCanvasComponent
+    component: StylingFeatureWithCanvasComponent,
   },
   {
     path: 'advanced-view-positioning',
-    component: AdvancedViewPositioningComponent
+    component: AdvancedViewPositioningComponent,
   },
   {
     path: 'clustered-features',
-    component: ClusteredFeaturesComponent
+    component: ClusteredFeaturesComponent,
   },
   {
     path: 'custom-control',
-    component: CustomControlComponent
+    component: CustomControlComponent,
   },
-  { path: 'map-overview-map', component: MapOverviewMapComponent }
+  {
+    path: 'map-feature-ripple',
+    component: MapFeatureRippleComponent,
+  },
+  { path: 'map-overview-map', component: MapOverviewMapComponent },
 ]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}
