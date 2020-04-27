@@ -64,7 +64,7 @@ export class MapFeatureSelectComponent implements OnInit {
   }
 
   getRandomNum() {
-    this.featureNum = Math.floor(1 + Math.random() * 10)
+    this.featureNum = Math.floor(1 + Math.random())
     console.warn(this.featureNum)
   }
   /**
@@ -198,11 +198,26 @@ export class MapFeatureSelectComponent implements OnInit {
   }
 
   addSelectInteraction() {
+    const that = this
     let selectionAction = new ol.interaction.Select({
       condition: ol.events.condition.pointerMove,
       style: function (feature, r) {
         let data = feature.get('data')
         console.log(data)
+        // let top = $(`<div class="ol-popup-ripple">
+        //   <p>${data.type}!</p>
+        //   </div>`)
+
+        // const marker2 = new ol.Overlay({
+        //   position: (<ol.geom.Point>feature.getGeometry()).getCoordinates(), // 标注位置
+        //   positioning: 'center-center', // 标注相对与锚点的方位
+        //   element: top[0],
+        //   stopEvent: false,
+        //   offset: [0, -34],
+        // })
+
+        // that.overlayArr.push(marker2)
+        // that.map.addOverlay(marker2)
         return new ol.style.Style({
           image: new ol.style.Icon({
             src: data.selectedIcon,
@@ -213,8 +228,13 @@ export class MapFeatureSelectComponent implements OnInit {
       },
     })
     this.map.addInteraction(selectionAction)
-    selectionAction.on('select', function () {
+    selectionAction.on('select', function (e) {
+      console.log(arguments)
       console.log('select')
+    })
+    selectionAction.on('deselect', function (e) {
+      console.log(arguments)
+      console.log('deselect')
     })
   }
 }
