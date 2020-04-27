@@ -36,7 +36,9 @@ import { StylingFeatureWithCanvasComponent } from './map/styling-feature-with-ca
 import { AdvancedViewPositioningComponent } from './map/advanced-view-positioning/advanced-view-positioning.component'
 import { ClusteredFeaturesComponent } from './map/clustered-features/clustered-features.component'
 import { CustomControlComponent } from './map/custom-control/custom-control.component';
-import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component'
+import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component';
+import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component';
+import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component'
 
 registerLocaleData(zh)
 
@@ -70,7 +72,9 @@ registerLocaleData(zh)
     AdvancedViewPositioningComponent,
     ClusteredFeaturesComponent,
     CustomControlComponent,
-    MapFeatureRippleComponent
+    MapFeatureRippleComponent,
+    MapFeatureSurfaceComponent,
+    MapFeatureSelectComponent
   ],
   imports: [
     BrowserModule,

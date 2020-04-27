@@ -27,6 +27,8 @@ import { AdvancedViewPositioningComponent } from './map/advanced-view-positionin
 import { ClusteredFeaturesComponent } from './map/clustered-features/clustered-features.component'
 import { CustomControlComponent } from './map/custom-control/custom-control.component'
 import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component'
+import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component'
+import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -69,6 +71,14 @@ const routes: Routes = [
   {
     path: 'map-feature-ripple',
     component: MapFeatureRippleComponent,
+  },
+  {
+    path: 'map-feature-surface',
+    component: MapFeatureSurfaceComponent,
+  },
+  {
+    path: 'map-feature-select',
+    component: MapFeatureSelectComponent,
   },
   { path: 'map-overview-map', component: MapOverviewMapComponent },
 ]

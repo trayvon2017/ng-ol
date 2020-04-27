@@ -3,11 +3,11 @@ import * as ol from 'openlayers'
 import { MapUtilService } from 'src/app/service/map-util.service'
 import $ from 'jquery'
 @Component({
-  selector: 'app-map-feature-ripple',
-  templateUrl: './map-feature-ripple.component.html',
-  styleUrls: ['./map-feature-ripple.component.scss'],
+  selector: 'app-map-feature-surface',
+  templateUrl: './map-feature-surface.component.html',
+  styles: [],
 })
-export class MapFeatureRippleComponent implements OnInit {
+export class MapFeatureSurfaceComponent implements OnInit {
   map: ol.Map
   featureNum: number = 1
   vectorLayer: ol.layer.Vector
@@ -21,15 +21,10 @@ export class MapFeatureRippleComponent implements OnInit {
     this.points = this.getPoints()
     this.drawFeature()
   }
-
   getRandomNum() {
     this.featureNum = Math.floor(1 + Math.random() * 10)
-    console.warn(this.featureNum)
   }
-  /**
-   * 请求数据
-   */
-  getPoints() {
+  getPoints(): any[] {
     this.getRandomNum()
     let points = []
     for (let index = 0; index < this.featureNum; index++) {
@@ -41,61 +36,41 @@ export class MapFeatureRippleComponent implements OnInit {
   drawFeature() {
     this.features = []
     this.points.forEach((point) => {
-      var feature = new ol.Feature({
-        geometry: point,
-      })
+      var feature = new ol.Feature(point)
       this.features.push(feature)
     })
     this.vectorLayer = new ol.layer.Vector({
       source: new ol.source.Vector({
         features: this.features,
       }),
+
       style: new ol.style.Style({
         image: new ol.style.Icon({
-          src: 'assets/images/fire.png',
-          imgSize: [26, 34],
-          anchor: [0.5, 1],
+          src: 'assets/images/Ranger sum.png',
+          // imgSize: [26, 34],
+          // anchor: [0.5, 1],
         }),
       }),
     })
     this.map.addLayer(this.vectorLayer)
     this.points.forEach((e, i) => {
-      let newDiv = document.createElement('div')
-      newDiv.className = 'ripple'
-      let pulse1 = document.createElement('div')
-      pulse1.className = 'pulse1'
-      newDiv.appendChild(pulse1)
-      let pulse2 = document.createElement('div')
-      pulse2.className = 'pulse2'
-      newDiv.appendChild(pulse2)
-      let pulse3 = document.createElement('div')
-      pulse3.className = 'pulse3'
-      newDiv.appendChild(pulse3)
+      let top = $(
+        `<div class="ol-popup-surface">
+          <p>${Math.ceil(Math.random() * 10000)}</p>
+        </div>`
+      )
       const marker = new ol.Overlay({
-        position: e.getCoordinates(), // 标注位置
-        positioning: 'center-center', // 标注相对与锚点的方位
-        element: newDiv,
-        stopEvent: false,
-      })
-      this.map.addOverlay(marker)
-      this.overlayArr.push(marker)
-      let top = $(`<div class="ol-popup-ripple">
-      <p>${e.getCoordinates()}!</p>
-      </div>`)
-
-      const marker2 = new ol.Overlay({
         position: e.getCoordinates(), // 标注位置
         positioning: 'center-center', // 标注相对与锚点的方位
         element: top[0],
         stopEvent: false,
-        offset: [0, -34],
+        offset: [0, -11],
       })
 
-      this.overlayArr.push(marker2)
-      this.map.addOverlay(marker2)
+      this.overlayArr.push(marker)
+      this.map.addOverlay(marker)
     })
   }
-
   initMap() {
     this.map = new ol.Map({
       target: 'map',
@@ -110,6 +85,7 @@ export class MapFeatureRippleComponent implements OnInit {
         zoom: 0,
       }),
     })
+    this.addInteraction()
   }
 
   update() {
@@ -121,5 +97,18 @@ export class MapFeatureRippleComponent implements OnInit {
     console.warn('overlay的个数', this.map.getOverlays().getArray().length)
     this.points = this.getPoints()
     this.drawFeature()
+  }
+
+  addInteraction() {
+    let interaction = new ol.interaction.Select({
+      // 事件类型
+      condition: ol.events.condition.singleClick,
+      // 点击后的样式
+      style: function (e) {
+        console.log(e)
+        return null
+      },
+    })
+    this.map.addInteraction(interaction)
   }
 }
