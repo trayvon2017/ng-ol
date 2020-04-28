@@ -38,7 +38,8 @@ import { ClusteredFeaturesComponent } from './map/clustered-features/clustered-f
 import { CustomControlComponent } from './map/custom-control/custom-control.component';
 import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component';
 import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component';
-import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component'
+import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component';
+import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component'
 
 registerLocaleData(zh)
 
@@ -74,7 +75,8 @@ registerLocaleData(zh)
     CustomControlComponent,
     MapFeatureRippleComponent,
     MapFeatureSurfaceComponent,
-    MapFeatureSelectComponent
+    MapFeatureSelectComponent,
+    MapFixedExtentComponent
   ],
   imports: [
     BrowserModule,

@@ -29,6 +29,7 @@ import { CustomControlComponent } from './map/custom-control/custom-control.comp
 import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component'
 import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component'
 import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component'
+import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -79,6 +80,10 @@ const routes: Routes = [
   {
     path: 'map-feature-select',
     component: MapFeatureSelectComponent,
+  },
+  {
+    path: 'map-fixed-extent',
+    component: MapFixedExtentComponent,
   },
   { path: 'map-overview-map', component: MapOverviewMapComponent },
 ]

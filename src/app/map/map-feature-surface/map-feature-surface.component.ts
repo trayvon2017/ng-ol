@@ -85,7 +85,6 @@ export class MapFeatureSurfaceComponent implements OnInit {
         zoom: 0,
       }),
     })
-    this.addInteraction()
   }
 
   update() {
@@ -97,18 +96,5 @@ export class MapFeatureSurfaceComponent implements OnInit {
     console.warn('overlay的个数', this.map.getOverlays().getArray().length)
     this.points = this.getPoints()
     this.drawFeature()
-  }
-
-  addInteraction() {
-    let interaction = new ol.interaction.Select({
-      // 事件类型
-      condition: ol.events.condition.singleClick,
-      // 点击后的样式
-      style: function (e) {
-        console.log(e)
-        return null
-      },
-    })
-    this.map.addInteraction(interaction)
   }
 }
