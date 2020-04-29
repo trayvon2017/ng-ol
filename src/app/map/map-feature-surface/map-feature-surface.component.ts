@@ -59,6 +59,8 @@ export class MapFeatureSurfaceComponent implements OnInit {
           <p>${Math.ceil(Math.random() * 10000)}</p>
         </div>`
       )
+
+      console.log(e.getCoordinates())
       const marker = new ol.Overlay({
         position: e.getCoordinates(), // 标注位置
         positioning: 'center-center', // 标注相对与锚点的方位
