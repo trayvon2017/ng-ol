@@ -30,6 +30,7 @@ import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-
 import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component'
 import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component'
 import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component'
+import { TestComponent } from './map/test/test.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -84,6 +85,10 @@ const routes: Routes = [
   {
     path: 'map-fixed-extent',
     component: MapFixedExtentComponent,
+  },
+  {
+    path: 'test',
+    component: TestComponent,
   },
   { path: 'map-overview-map', component: MapOverviewMapComponent },
 ]

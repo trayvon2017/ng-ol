@@ -39,7 +39,8 @@ import { CustomControlComponent } from './map/custom-control/custom-control.comp
 import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component';
 import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component';
 import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component';
-import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component'
+import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component';
+import { TestComponent } from './map/test/test.component'
 
 registerLocaleData(zh)
 
@@ -76,7 +77,8 @@ registerLocaleData(zh)
     MapFeatureRippleComponent,
     MapFeatureSurfaceComponent,
     MapFeatureSelectComponent,
-    MapFixedExtentComponent
+    MapFixedExtentComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,

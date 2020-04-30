@@ -101,14 +101,14 @@ ul {
   animation-delay: 2s;
 }
 
-// 
+//
 .ol-popup-ripple,
 .ol-popup-surface {
   position: absolute;
   padding: 6px 10px;
   border-radius: 5px;
   bottom: 8px;
-  left: 50%;
+  // left: 50%;
   transform: translateX(-50%);
   opacity: 0;
 
@@ -134,7 +134,8 @@ ul {
 }
 
 .ol-popup-ripple {
-  animation: surface 1s ease-in-out 1s 1 forwards, upAndDown 1s ease-in-out 2s infinite;
+  animation: surface 1s ease-in-out 1s 1 forwards,
+    upAndDown 1s ease-in-out 2s infinite;
   background-color: #cf8138;
   border: 1px solid rgba(255, 255, 255, 1);
 
@@ -160,7 +161,7 @@ ul {
 
 .ol-popup-surface {
   animation: surface 1s ease-in-out 1s 1 forwards;
-  background-color: #14E911;
+  background-color: #14e911;
 
   p {
     color: #232323;
@@ -168,7 +169,7 @@ ul {
   }
 
   &:before {
-    border-top-color: #14E911;
+    border-top-color: #14e911;
   }
 }
 

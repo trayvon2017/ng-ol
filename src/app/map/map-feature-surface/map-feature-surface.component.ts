@@ -25,12 +25,18 @@ export class MapFeatureSurfaceComponent implements OnInit {
     this.featureNum = Math.floor(1 + Math.random() * 10)
   }
   getPoints(): any[] {
+    // SRID=4326;POINT(113.358243 23.127887)
     this.getRandomNum()
     let points = []
-    for (let index = 0; index < this.featureNum; index++) {
-      let point = this.mapUtil.getRandomGeom()
-      points.push(point)
-    }
+    // for (let index = 0; index < this.featureNum; index++) {
+    //   let point = this.mapUtil.getRandomGeom()
+    //   points.push(point)
+    // }
+    points.push(
+      new ol.geom.Point(
+        ol.proj.transform([113.358243, 23.127887], 'EPSG:4326', 'EPSG:3857')
+      )
+    )
     return points
   }
   drawFeature() {
@@ -56,17 +62,18 @@ export class MapFeatureSurfaceComponent implements OnInit {
     this.points.forEach((e, i) => {
       let top = $(
         `<div class="ol-popup-surface">
-          <p>${Math.ceil(Math.random() * 10000)}</p>
+        <p>10</p>
         </div>`
       )
+      // <p>${Math.ceil(Math.random() * 10000)}</p>
 
       console.log(e.getCoordinates())
       const marker = new ol.Overlay({
         position: e.getCoordinates(), // 标注位置
-        positioning: 'center-center', // 标注相对与锚点的方位
+        // positioning: 'center-center', // 标注相对与锚点的方位
         element: top[0],
         stopEvent: false,
-        offset: [0, -11],
+        // offset: [0, -11],
       })
 
       this.overlayArr.push(marker)
@@ -75,7 +82,7 @@ export class MapFeatureSurfaceComponent implements OnInit {
   }
   initMap() {
     this.map = new ol.Map({
-      target: 'map',
+      target: 'map2',
       layers: [
         new ol.layer.Tile({
           source: new ol.source.OSM(),

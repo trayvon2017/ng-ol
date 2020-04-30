@@ -93,6 +93,9 @@ export class MapFeatureRippleComponent implements OnInit {
 
       this.overlayArr.push(marker2)
       this.map.addOverlay(marker2)
+      setTimeout(() => {
+        this.map.render()
+      }, 1000)
     })
   }
 
