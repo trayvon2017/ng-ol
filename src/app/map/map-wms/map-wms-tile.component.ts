@@ -18,47 +18,77 @@ export class MapWmsTileComponent implements OnInit {
         new ol.layer.Tile({
           source: new ol.source.OSM(),
         }),
+        /* arcgis */
         new ol.layer.Tile({
-          // extent: [-400.0, 19.28623906715518, 132.99926530598282, 400.0],
-          source: new ol.source.TileWMS({
+          // extent: [-400.0, -28.835980314756398, 223.76142591237294, 400.0],
+          source: new ol.source.TileArcGISRest({
             // url: 'https://ahocevar.com/geoserver/wms',
             // params: {
             //   LAYERS: 'topp:states',
             // },
-            url: 'http://192.168.2.4:9080/geowebcache/service/wms',
-            params: {
-              LAYERS: 'guangdong',
-              TILED: true,
-              // SRS: 'EPSG:4326',
-              VERSION: '1.1.1',
-            },
+            url:
+              'http://192.168.2.3:6080/arcgis/rest/services/gdbackground2/MapServer',
+            // params: {
+            //   LAYERS: 'guangdong',
+            //   TILED: true,
+            //   // SRS: 'EPSG:4326',
+            //   VERSION: '1.1.1',
+            // },
             tileGrid: new ol.tilegrid.TileGrid({
               tileSize: [256, 256],
               origin: [-400.0, 400.0],
               resolutions: [
+                0.15228550437313793,
+                0.07614275218656896,
+                0.03807137609328448,
                 0.01903568804664224,
                 0.00951784402332112,
                 0.00475892201166056,
-                0.00237946100583028,
-                0.00118973050291514,
-                5.9486525145757e-4,
-                2.97432625728785e-4,
-                1.5228550437313792e-4,
-                7.614275218656896e-5,
-                3.807137609328448e-5,
-                1.903568804664224e-5,
-                9.51784402332112e-6,
               ],
             }),
             projection: 'EPSG:4326',
-            serverType: 'geoserver',
-            transition: 5000,
+            // serverType: 'geoserver',
+            // transition: 5000,
           }),
           zIndex: 20,
         }),
       ],
+      /* wms */
+      //   new ol.layer.Tile({
+      //     // extent: [-400.0, -28.835980314756398, 223.76142591237294, 400.0],
+      //     source: new ol.source.TileWMS({
+      //       // url: 'https://ahocevar.com/geoserver/wms',
+      //       // params: {
+      //       //   LAYERS: 'topp:states',
+      //       // },
+      //       url: 'http://192.168.2.4:9080/geowebcache/service/wms',
+      //       params: {
+      //         LAYERS: 'guangdong',
+      //         TILED: true,
+      //         // SRS: 'EPSG:4326',
+      //         VERSION: '1.1.1',
+      //       },
+      //       tileGrid: new ol.tilegrid.TileGrid({
+      //         tileSize: [256, 256],
+      //         origin: [-400.0, 400.0],
+      //         resolutions: [
+      //           0.15228550437313793,
+      //           0.07614275218656896,
+      //           0.03807137609328448,
+      //           0.01903568804664224,
+      //           0.00951784402332112,
+      //           0.00475892201166056,
+      //         ],
+      //       }),
+      //       projection: 'EPSG:4326',
+      //       serverType: 'geoserver',
+      //       transition: 5000,
+      //     }),
+      //     zIndex: 20,
+      //   }),
+      // ],
       view: new ol.View({
-        projection: 'EPSG:3857',
+        // projection: 'EPSG:4326',
         center: [112, 23],
         zoom: 4,
       }),
