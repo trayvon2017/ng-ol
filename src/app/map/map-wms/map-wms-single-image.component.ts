@@ -39,13 +39,14 @@ export class MapWmsSingleImageComponent implements OnInit {
     const imgLayer = new ol.layer.Image({
       extent: [-400.0, 19.28623906715518, 132.99926530598282, 400.0],
       source: new ol.source.ImageWMS({
+        ratio: 1,
         projection: 'EPSG:4326',
-        url: 'http://192.168.2.4:9080/geowebcache/service/wms',
+        url: 'http://192.168.2.2:9080/geoserver/ksp/wms',
         params: {
           // REQUEST: 'GetFeatureInfo',
-          LAYERS: 'guangdong',
+          LAYERS: 'ksp:115',
           ratio: 1,
-          SRS: 'EPSG:4326',
+          SRS: 'EPSG:404000',
           VERSION: '1.1.1',
           // FORMAT: 'application/json',
           // infoFormat: 'text/html',
@@ -58,20 +59,6 @@ export class MapWmsSingleImageComponent implements OnInit {
         },
         // ratio: 1,
         serverType: 'geoserver',
-        resolutions: [
-          0.01903568804664224,
-          0.00951784402332112,
-          0.00475892201166056,
-          0.00237946100583028,
-          0.00118973050291514,
-          5.9486525145757e-4,
-          2.97432625728785e-4,
-          1.5228550437313792e-4,
-          7.614275218656896e-5,
-          3.807137609328448e-5,
-          1.903568804664224e-5,
-          9.51784402332112e-6,
-        ],
       }),
     })
 
