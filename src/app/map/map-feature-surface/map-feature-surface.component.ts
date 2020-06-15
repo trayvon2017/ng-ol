@@ -59,26 +59,26 @@ export class MapFeatureSurfaceComponent implements OnInit {
       }),
     })
     this.map.addLayer(this.vectorLayer)
-    this.points.forEach((e, i) => {
-      let top = $(
-        `<div class="ol-popup-surface">
-        <p>10</p>
-        </div>`
-      )
-      // <p>${Math.ceil(Math.random() * 10000)}</p>
+    // this.points.forEach((e, i) => {
+    //   let top = $(
+    //     `<div class="ol-popup-surface">
+    //     <p>10</p>
+    //     </div>`
+    //   )
+    //   // <p>${Math.ceil(Math.random() * 10000)}</p>
 
-      console.log(e.getCoordinates())
-      const marker = new ol.Overlay({
-        position: e.getCoordinates(), // 标注位置
-        // positioning: 'center-center', // 标注相对与锚点的方位
-        element: top[0],
-        stopEvent: false,
-        // offset: [0, -11],
-      })
+    //   console.log(e.getCoordinates())
+    //   const marker = new ol.Overlay({
+    //     position: e.getCoordinates(), // 标注位置
+    //     // positioning: 'center-center', // 标注相对与锚点的方位
+    //     element: top[0],
+    //     stopEvent: false,
+    //     // offset: [0, -11],
+    //   })
 
-      this.overlayArr.push(marker)
-      this.map.addOverlay(marker)
-    })
+    //   this.overlayArr.push(marker)
+    //   // this.map.addOverlay(marker)
+    // })
   }
   initMap() {
     this.map = new ol.Map({
@@ -94,6 +94,22 @@ export class MapFeatureSurfaceComponent implements OnInit {
         zoom: 0,
       }),
     })
+    this.map.on('singleclick', (event) => {
+      console.log(event)
+      const feature = this.map.forEachFeatureAtPixel(event['pixel'], function (
+        feature
+      ) {
+        return feature
+      })
+      console.log(feature)
+      let c1 = ol.proj.transform(
+        [113.358243, 23.127887],
+        'EPSG:4326',
+        'EPSG:3857'
+      )
+      let c2 = event['coordinate']
+      this.addOverlay(c1)
+    })
   }
 
   update() {
@@ -105,5 +121,25 @@ export class MapFeatureSurfaceComponent implements OnInit {
     console.warn('overlay的个数', this.map.getOverlays().getArray().length)
     this.points = this.getPoints()
     this.drawFeature()
+  }
+
+  addOverlay(coodinate) {
+    let top = $(
+      `<div class="ol-popup-surface">
+        <p>10</p>
+        </div>`
+    )
+    // <p>${Math.ceil(Math.random() * 10000)}</p>
+
+    const marker = new ol.Overlay({
+      position: coodinate, // 标注位置
+      // positioning: 'center-center', // 标注相对与锚点的方位
+      element: top[0],
+      stopEvent: false,
+      // offset: [0, -11],
+    })
+
+    // this.overlayArr.push(marker)
+    this.map.addOverlay(marker)
   }
 }
