@@ -194,3 +194,17 @@ ul {
     opacity: 1;
   }
 }
+
+.map-tooltip {
+  width: 130px !important;
+  word-wrap: break-word;
+  position: absolute;
+  border: 1px solid #7EABCD;
+  background-color: white;
+  padding: 5px;
+  font-size: 9pt;
+  z-index: 9999;
+  border-radius: 4px;
+  border: 1px solid red !important;
+  opacity: 1;
+}

@@ -50,13 +50,22 @@ export class MapFeatureSurfaceComponent implements OnInit {
         features: this.features,
       }),
 
-      style: new ol.style.Style({
-        image: new ol.style.Icon({
-          src: 'assets/images/Ranger sum.png',
-          // imgSize: [26, 34],
-          // anchor: [0.5, 1],
+      style: [
+        new ol.style.Style({
+          image: new ol.style.Icon({
+            src: 'assets/images/Ranger sum.png',
+            // imgSize: [26, 34],
+            // anchor: [0.5, 1],
+          }),
         }),
-      }),
+        new ol.style.Style({
+          image: new ol.style.Icon({
+            src: 'assets/images/Ranger sum.png',
+            // imgSize: [26, 34],
+            anchor: [0.5, 1],
+          }),
+        }),
+      ],
     })
     this.map.addLayer(this.vectorLayer)
     // this.points.forEach((e, i) => {

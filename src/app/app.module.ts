@@ -40,7 +40,9 @@ import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-
 import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component';
 import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component';
 import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component';
-import { TestComponent } from './map/test/test.component'
+import { TestComponent } from './map/test/test.component';
+import { MapModifyAreaComponent } from './map/map-modify-area/map-modify-area.component';
+import { HighlightExtentComponent } from './map/highlight-extent/highlight-extent.component'
 
 registerLocaleData(zh)
 
@@ -78,7 +80,9 @@ registerLocaleData(zh)
     MapFeatureSurfaceComponent,
     MapFeatureSelectComponent,
     MapFixedExtentComponent,
-    TestComponent
+    TestComponent,
+    MapModifyAreaComponent,
+    HighlightExtentComponent
   ],
   imports: [
     BrowserModule,

@@ -31,6 +31,7 @@ import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-featur
 import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component'
 import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component'
 import { TestComponent } from './map/test/test.component'
+import { MapModifyAreaComponent } from './map/map-modify-area/map-modify-area.component'
 
 const routes: Routes = [
   { path: 'simple-map', component: MapDemo1Component },
@@ -91,6 +92,7 @@ const routes: Routes = [
     component: TestComponent,
   },
   { path: 'map-overview-map', component: MapOverviewMapComponent },
+  { path: 'map-modify-area', component: MapModifyAreaComponent },
 ]
 
 @NgModule({
