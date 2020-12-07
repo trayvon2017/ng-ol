@@ -1,0 +1,31 @@
+.sc-map-container {
+  display: flex;
+  height: 100%;
+  .map-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    p {
+      flex: 0 0 initial;
+    }
+    .map {
+      flex: 1;
+      background: khaki;
+    }
+  }
+  .left {
+    flex: 3;
+    margin-right: 20px;
+  }
+  .right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    #second {
+      flex: 1;
+    }
+    #three {
+      flex: 1;
+    }
+  }
+}

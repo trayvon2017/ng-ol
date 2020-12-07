@@ -35,14 +35,17 @@ import { BoxSelectionComponent } from './map/box-selection/box-selection.compone
 import { StylingFeatureWithCanvasComponent } from './map/styling-feature-with-canvas/styling-feature-with-canvas.component'
 import { AdvancedViewPositioningComponent } from './map/advanced-view-positioning/advanced-view-positioning.component'
 import { ClusteredFeaturesComponent } from './map/clustered-features/clustered-features.component'
-import { CustomControlComponent } from './map/custom-control/custom-control.component';
-import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component';
-import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component';
-import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component';
-import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component';
-import { TestComponent } from './map/test/test.component';
-import { MapModifyAreaComponent } from './map/map-modify-area/map-modify-area.component';
+import { CustomControlComponent } from './map/custom-control/custom-control.component'
+import { MapFeatureRippleComponent } from './map/map-feature-ripple/map-feature-ripple.component'
+import { MapFeatureSurfaceComponent } from './map/map-feature-surface/map-feature-surface.component'
+import { MapFeatureSelectComponent } from './map/map-feature-select/map-feature-select.component'
+import { MapFixedExtentComponent } from './map/map-fixed-extent/map-fixed-extent.component'
+import { TestComponent } from './map/test/test.component'
+import { MapModifyAreaComponent } from './map/map-modify-area/map-modify-area.component'
 import { HighlightExtentComponent } from './map/highlight-extent/highlight-extent.component'
+import { ScMapComponent } from './map/sc-map/sc-map.component'
+import { ScMap2Component } from './map/sc-map2/sc-map2.component'
+import { KMapModule } from './k-map/k-map.module'
 
 registerLocaleData(zh)
 
@@ -82,7 +85,9 @@ registerLocaleData(zh)
     MapFixedExtentComponent,
     TestComponent,
     MapModifyAreaComponent,
-    HighlightExtentComponent
+    HighlightExtentComponent,
+    ScMapComponent,
+    ScMap2Component,
   ],
   imports: [
     BrowserModule,
@@ -90,9 +95,11 @@ registerLocaleData(zh)
     NgZorroAntdModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    KMapModule,
   ],
   providers: [{ provide: NZ_I18N, useValue: zh_CN }],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [ScMapComponent, ScMap2Component],
 })
 export class AppModule {}
