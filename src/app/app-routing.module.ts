@@ -34,9 +34,11 @@ import { TestComponent } from './map/test/test.component'
 import { MapModifyAreaComponent } from './map/map-modify-area/map-modify-area.component'
 import { ScMapComponent } from './map/sc-map/sc-map.component'
 import { ScMap2Component } from './map/sc-map2/sc-map2.component'
+import { RegionControlComponent } from './map/region-control/region-control.component'
 
 const routes: Routes = [
-  { path: '', redirectTo: 'sc-map2', pathMatch: 'full' },
+  // { path: '', redirectTo: 'sc-map2', pathMatch: 'full' },
+  { path: '', component: RegionControlComponent, pathMatch: 'full' },
   { path: 'sc-map2', component: ScMap2Component },
   { path: 'sc-map', component: ScMapComponent },
   { path: 'simple-map', component: MapDemo1Component },

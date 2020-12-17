@@ -45,7 +45,8 @@ import { MapModifyAreaComponent } from './map/map-modify-area/map-modify-area.co
 import { HighlightExtentComponent } from './map/highlight-extent/highlight-extent.component'
 import { ScMapComponent } from './map/sc-map/sc-map.component'
 import { ScMap2Component } from './map/sc-map2/sc-map2.component'
-import { KMapModule } from './k-map/k-map.module'
+import { KMapModule } from './k-map/k-map.module';
+import { RegionControlComponent } from './map/region-control/region-control.component'
 
 registerLocaleData(zh)
 
@@ -88,6 +89,7 @@ registerLocaleData(zh)
     HighlightExtentComponent,
     ScMapComponent,
     ScMap2Component,
+    RegionControlComponent,
   ],
   imports: [
     BrowserModule,

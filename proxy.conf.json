@@ -1,0 +1,27 @@
+{
+  "/test": {
+    "target": " https://www.easy-mock.com/mock/5d11b5eb7cafa745a7410d7f",
+    "secure": false
+  },
+
+  "/detailed": {
+    "target": "http://api.tianditu.gov.cn/geocoder",
+    "secure": false
+  },
+  "/dirdis": {
+    "target": "https://www.easy-mock.com/mock/5c9ee7cb49b4a96ba1da040f",
+    "secure": false
+  },
+  "/geoserver": {
+    "target": "http://192.168.2.2:9080",
+    "secure": false
+  },
+  "/geowebcache": {
+    "target": "http://192.168.2.2:5448",
+    "secure": false
+  },
+  "/security": {
+    "target": "http://192.168.2.2:5448",
+    "secure": false
+  }
+}
