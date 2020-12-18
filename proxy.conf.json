@@ -20,6 +20,10 @@
     "target": "http://192.168.2.2:5448",
     "secure": false
   },
+  "/security/grid": {
+    "target": "http://192.168.2.2:8089",
+    "secure": false
+  },
   "/security": {
     "target": "http://192.168.2.2:5448",
     "secure": false
