@@ -48,7 +48,8 @@ export class AutoRegionLayerComponent implements OnInit {
           HEIGHT: '523',
           REQUEST: 'GetMap',
           format: 'image/png',
-          cql_filter: `levelid=${levelId}`,
+          // cql_filter: `levelid=${levelId}`,
+          cql_filter: `levelid=${levelId} and rname not like '%林场%'`,
           // 'LAYERS': '1.1.1',
           // 'FORMAT': 'image/jpeg'
         },

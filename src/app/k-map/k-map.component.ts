@@ -31,7 +31,12 @@ export class KMapComponent implements OnInit {
   initMap() {
     this.olMap = new ol.Map({
       target: this.mapEle.nativeElement,
-      layers: this.initBaseLayer(),
+      // layers: this.initBaseLayer(),
+      layers: [
+        new ol.layer.Tile({
+          source: new ol.source.OSM(),
+        }),
+      ],
       view: this.mapView,
       controls: ol.control.defaults({
         attribution: false,
