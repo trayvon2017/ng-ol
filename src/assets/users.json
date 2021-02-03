@@ -1,0 +1,1908 @@
+{
+  "description": "NORMAL",
+  "body": [
+    {
+      "unitName": "英德石门台",
+      "items": [
+        {
+          "lastTime": "10:39:10",
+          "name": "朱小龙",
+          "lastLocation": [113.312288, 24.40328],
+          "id": "718a9476767043c082312d3d7f98e16c",
+          "type": "user",
+          "dataLevel": "100000025007005"
+        },
+        {
+          "lastTime": "10:39:16",
+          "name": "周国成",
+          "lastLocation": [113.106754, 24.487052],
+          "id": "f2ad1d7ea4734d238c83baff3ffc8fb8",
+          "type": "user",
+          "dataLevel": "100000025007002"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "李文省",
+          "lastLocation": [113.16079, 24.397072],
+          "id": "8b6b482ce6ad4769918d39d6839a1f37",
+          "type": "user",
+          "dataLevel": "100000025007003"
+        },
+        {
+          "lastTime": "10:39:33",
+          "name": "曾阳金",
+          "lastLocation": [113.312284, 24.403293],
+          "id": "af5eb504baae45c691da2084a7b198fa",
+          "type": "user",
+          "dataLevel": "100000025007005"
+        },
+        {
+          "lastTime": "10:39:18",
+          "name": "梁达凯",
+          "lastLocation": [113.373407, 24.402069],
+          "id": "5d5b86f68dc7441d94023c2b27df2e23",
+          "type": "user",
+          "dataLevel": "100000025007004"
+        },
+        {
+          "lastTime": "10:39:12",
+          "name": "吴丁华",
+          "lastLocation": [113.312122, 24.40253],
+          "id": "23ea03484bbf416a80b614b743345d6a",
+          "type": "user",
+          "dataLevel": "100000025007005"
+        },
+        {
+          "lastTime": "10:39:18",
+          "name": "李神营",
+          "lastLocation": [113.47084, 24.412647],
+          "id": "e133c057505f48f88d1fd848673600bf",
+          "type": "user",
+          "dataLevel": "100000025007001"
+        },
+        {
+          "lastTime": "10:39:20",
+          "name": "马化剑",
+          "lastLocation": [113.524292, 24.418775],
+          "id": "2a7b1dbf5a6e4cf4855d78088847cd7d",
+          "type": "user",
+          "dataLevel": "100000025007001"
+        },
+        {
+          "lastTime": "10:39:23",
+          "name": "周道帮",
+          "lastLocation": [113.47083, 24.412605],
+          "id": "ae5bbe30d1be473ab4f44e4b610fa6d9",
+          "type": "user",
+          "dataLevel": "100000025007001"
+        },
+        {
+          "lastTime": "10:39:22",
+          "name": "黄辉杰",
+          "lastLocation": [113.160849, 24.396892],
+          "id": "148756c87e9f4718b934b99f47dd59a8",
+          "type": "user",
+          "dataLevel": "100000025007003"
+        },
+        {
+          "lastTime": "10:39:02",
+          "name": "彭利泉",
+          "lastLocation": [113.093469, 24.465636],
+          "id": "b9718e78e808406bb9327446465dca8d",
+          "type": "user",
+          "dataLevel": "100000025007002"
+        },
+        {
+          "lastTime": "10:39:36",
+          "name": "包贤俊",
+          "lastLocation": [113.353914, 24.451428],
+          "id": "8ec2367865ee49579978b2331bfad2ed",
+          "type": "user",
+          "dataLevel": "100000025007004"
+        }
+      ]
+    },
+    {
+      "unitName": "乳阳管理处",
+      "items": [
+        {
+          "lastTime": "10:39:35",
+          "name": "幸海茂",
+          "lastLocation": [113.088857, 24.920104],
+          "id": "59397535773048b8a85cfe51896d3b40",
+          "type": "user",
+          "dataLevel": "100000025000001007"
+        },
+        {
+          "lastTime": "10:39:31",
+          "name": "黄霭庭",
+          "lastLocation": [113.082878, 24.913286],
+          "id": "fd0569f220eb421a8bd18a7864e74003",
+          "type": "user",
+          "dataLevel": "100000025000001007"
+        },
+        {
+          "lastTime": "10:39:36",
+          "name": "宋国平",
+          "lastLocation": [113.055009, 24.829541],
+          "id": "c8f3d84d9ac44a65bfe651767982183d",
+          "type": "user",
+          "dataLevel": "100000025000001005"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "马相云",
+          "lastLocation": [113.055446, 24.850967],
+          "id": "e3fefe36781040dbbbe852deea79e5f4",
+          "type": "user",
+          "dataLevel": "100000025000001004"
+        },
+        {
+          "lastTime": "10:39:26",
+          "name": "彭帮林",
+          "lastLocation": [113.082857, 24.913363],
+          "id": "bcab538dbd9c463f8b7a0c2f997fc6f5",
+          "type": "user",
+          "dataLevel": "100000025000001007"
+        },
+        {
+          "lastTime": "10:39:21",
+          "name": "刘红香",
+          "lastLocation": [113.089118, 24.918784],
+          "id": "f3e7ad0a65434005bbab518e1165e6a3",
+          "type": "user",
+          "dataLevel": "100000025000001007"
+        },
+        {
+          "lastTime": "10:39:35",
+          "name": "魏能强",
+          "lastLocation": [113.091037, 24.924028],
+          "id": "2c92ae70719cd2790171b54c4fd4549f",
+          "type": "user",
+          "dataLevel": "100000025000001007"
+        },
+        {
+          "lastTime": "10:39:24",
+          "name": "吴卫青",
+          "lastLocation": [113.08897, 24.920329],
+          "id": "429785f3a75e49e28538d77edd3403a6",
+          "type": "user",
+          "dataLevel": "100000025000001000"
+        }
+      ]
+    },
+    {
+      "unitName": "郁南同乐大山",
+      "items": [
+        {
+          "lastTime": "10:39:20",
+          "name": "陶兴标",
+          "lastLocation": [111.66715, 23.139044],
+          "id": "98f93a349b1d4eea90204381b77fd1dc",
+          "type": "user",
+          "dataLevel": "100000024000002"
+        },
+        {
+          "lastTime": "10:39:37",
+          "name": "张流文",
+          "lastLocation": [111.667345, 23.138763],
+          "id": "53bf6ccedef3483a915f78a8fdcc0458",
+          "type": "user",
+          "dataLevel": "100000024000001"
+        }
+      ]
+    },
+    {
+      "unitName": "乳源南水湖",
+      "items": [
+        {
+          "lastTime": "10:39:14",
+          "name": "杨春平",
+          "lastLocation": [113.137817, 24.713705],
+          "id": "4d558ef949b84ce185cd7415c30aaaa1",
+          "type": "user",
+          "dataLevel": "100000001000000000"
+        },
+        {
+          "lastTime": "10:39:15",
+          "name": "曾永源",
+          "lastLocation": [113.15579, 24.766162],
+          "id": "d7c47b829d6a48f3990603084773e457",
+          "type": "user",
+          "dataLevel": "100000001000000000"
+        }
+      ]
+    },
+    {
+      "unitName": "河源新港",
+      "items": [
+        {
+          "lastTime": "10:39:37",
+          "name": "刘建良",
+          "lastLocation": [114.522216, 23.89017],
+          "id": "8e878de894eb4ee28a3eeb66b5b5eb37",
+          "type": "user",
+          "dataLevel": "100000019003001"
+        }
+      ]
+    },
+    {
+      "unitName": "台山上川岛",
+      "items": [
+        {
+          "lastTime": "10:39:18",
+          "name": "梁永强",
+          "lastLocation": [112.830789, 21.742692],
+          "id": "d4e6329412ab43b7931366efa55f4217",
+          "type": "user",
+          "dataLevel": "100000014001000"
+        },
+        {
+          "lastTime": "10:39:26",
+          "name": "唐冠山",
+          "lastLocation": [112.8308, 21.742696],
+          "id": "202e777517014defaf53d9ca49fd5391",
+          "type": "user",
+          "dataLevel": "100000014001000"
+        }
+      ]
+    },
+    {
+      "unitName": "茂名林洲顶",
+      "items": [
+        {
+          "lastTime": "10:39:23",
+          "name": "李时标",
+          "lastLocation": [111.664813, 22.462325],
+          "id": "9d052f2db23d4eda962886d8193e6811",
+          "type": "user",
+          "dataLevel": "100000015000004"
+        },
+        {
+          "lastTime": "10:39:16",
+          "name": "蔡禄荣",
+          "lastLocation": [111.618426, 22.413046],
+          "id": "0996d2198ebf4610af5cef33d4268282",
+          "type": "user",
+          "dataLevel": "100000015000002"
+        },
+        {
+          "lastTime": "10:39:18",
+          "name": "姜权庆",
+          "lastLocation": [111.534977, 22.391206],
+          "id": "d76fd371346549649c15c7d6f0db1ccf",
+          "type": "user",
+          "dataLevel": "100000015000001"
+        }
+      ]
+    },
+    {
+      "unitName": "内伶仃岛-福田",
+      "items": [
+        {
+          "lastTime": "10:39:28",
+          "name": "唐家华",
+          "lastLocation": [113.817308, 22.40969],
+          "id": "9e11320cd9244f0f9abe38a72947f41d",
+          "type": "user",
+          "dataLevel": "100000025001001"
+        },
+        {
+          "lastTime": "10:39:13",
+          "name": "廖树雄",
+          "lastLocation": [113.817893, 22.4092],
+          "id": "51d6bd3d3aac498d9558017068857f0d",
+          "type": "user",
+          "dataLevel": "100000025001001"
+        }
+      ]
+    },
+    {
+      "unitName": "怀集三岳",
+      "items": [
+        {
+          "lastTime": "10:39:09",
+          "name": "姚怀生",
+          "lastLocation": [112.168081, 23.91159],
+          "id": "86bb83424b764413b382a723c632f1e2",
+          "type": "user",
+          "dataLevel": "100000013002000"
+        }
+      ]
+    },
+    {
+      "unitName": "连南板洞",
+      "items": [
+        {
+          "lastTime": "10:39:23",
+          "name": "陈鉴权",
+          "lastLocation": [112.283723, 24.397399],
+          "id": "b997b96b5b96489da0d8ff016d26d847",
+          "type": "user",
+          "dataLevel": "100000021001001"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "赵伟新",
+          "lastLocation": [112.279067, 24.438088],
+          "id": "8cdfeff89fbf4349b148aad4913bc409",
+          "type": "user",
+          "dataLevel": "100000021001001"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "盘林青",
+          "lastLocation": [112.28353, 24.397308],
+          "id": "64a12d3997144e1996771ebacabd433e",
+          "type": "user",
+          "dataLevel": "100000021001001"
+        },
+        {
+          "lastTime": "10:39:17",
+          "name": "潘光先",
+          "lastLocation": [112.407499, 24.39366],
+          "id": "41d4350cc2b94794a3e727a795dc37e0",
+          "type": "user",
+          "dataLevel": "100000021001002"
+        },
+        {
+          "lastTime": "10:39:24",
+          "name": "王焕荣",
+          "lastLocation": [112.407541, 24.393705],
+          "id": "ed5aa604e8a64d58866b8b7874b05b19",
+          "type": "user",
+          "dataLevel": "100000021001002"
+        },
+        {
+          "lastTime": "10:39:35",
+          "name": "钟金生",
+          "lastLocation": [112.283539, 24.397242],
+          "id": "0d5f8c6708324d0388913c7c2a395ce7",
+          "type": "user",
+          "dataLevel": "100000021001001"
+        },
+        {
+          "lastTime": "10:39:15",
+          "name": "陈海军",
+          "lastLocation": [112.374694, 24.395572],
+          "id": "4b0827f1ac8c48e28b7fadc03b093732",
+          "type": "user",
+          "dataLevel": "100000021001003"
+        }
+      ]
+    },
+    {
+      "unitName": "曲江罗坑",
+      "items": [
+        {
+          "lastTime": "10:39:26",
+          "name": "刘喜方",
+          "lastLocation": [113.34963, 24.493358],
+          "id": "752e9bbbe9bb469b80d803c6b8196cd1",
+          "type": "user",
+          "dataLevel": "100000025003002"
+        },
+        {
+          "lastTime": "10:39:26",
+          "name": "吴基山",
+          "lastLocation": [113.349642, 24.493255],
+          "id": "8bf66ed4c50642408a1924121a50c0f4",
+          "type": "user",
+          "dataLevel": "100000025003002"
+        },
+        {
+          "lastTime": "10:39:10",
+          "name": "刘万有",
+          "lastLocation": [113.36961, 24.541412],
+          "id": "de71bd6214f445f398a608c865f4edf8",
+          "type": "user",
+          "dataLevel": "100000025003004"
+        }
+      ]
+    },
+    {
+      "unitName": "从化陈禾洞",
+      "items": [
+        {
+          "lastTime": "10:39:13",
+          "name": "麦杰明",
+          "lastLocation": [113.941754, 23.782206],
+          "id": "4c1ffd4784864e0c8cc676d5e5f92753",
+          "type": "user",
+          "dataLevel": "100000003001000"
+        },
+        {
+          "lastTime": "10:39:17",
+          "name": "冯柏松",
+          "lastLocation": [113.906544, 23.770242],
+          "id": "f46ee82dc2bb4d1b89c180d4d71068c2",
+          "type": "user",
+          "dataLevel": "100000003001000"
+        },
+        {
+          "lastTime": "10:39:33",
+          "name": "陈永发",
+          "lastLocation": [113.930211, 23.773088],
+          "id": "61f41ce8f3264958be7af488c2c0e33e",
+          "type": "user",
+          "dataLevel": "100000003001000"
+        },
+        {
+          "lastTime": "10:39:36",
+          "name": "钟剑锋",
+          "lastLocation": [113.941874, 23.783287],
+          "id": "718d0ffa9897401093d620246c8d6f89",
+          "type": "user",
+          "dataLevel": "100000003001000"
+        },
+        {
+          "lastTime": "10:39:12",
+          "name": "曾鸿昌",
+          "lastLocation": [113.941775, 23.782224],
+          "id": "c8450ee9ef5c471d8fa78f97b674a9c0",
+          "type": "user",
+          "dataLevel": "100000003001000"
+        }
+      ]
+    },
+    {
+      "unitName": "海丰鸟类",
+      "items": [
+        {
+          "lastTime": "10:39:29",
+          "name": "卓辅烈",
+          "lastLocation": [115.480836, 22.836625],
+          "id": "2c92ae6e66edbd5701674eff661750cb",
+          "type": "user",
+          "dataLevel": "100000018001000"
+        },
+        {
+          "lastTime": "10:39:38",
+          "name": "刘益君",
+          "lastLocation": [115.41041, 23.112045],
+          "id": "bf26887a2d0e46cba93b33a86e456d1c",
+          "type": "user",
+          "dataLevel": "100000018001002"
+        }
+      ]
+    },
+    {
+      "unitName": "珠海担杆岛自然保护区",
+      "items": [
+        {
+          "lastTime": "10:39:23",
+          "name": "蔡宏峰",
+          "lastLocation": [113.648748, 22.413824],
+          "id": "cb837227c35d462d9ee20d9ab2e9cee6",
+          "type": "user",
+          "dataLevel": "100000010000000"
+        },
+        {
+          "lastTime": "10:39:28",
+          "name": "蔡少兴",
+          "lastLocation": [113.637318, 22.417829],
+          "id": "b45cf1c084c14bab838605523c9b4a7e",
+          "type": "user",
+          "dataLevel": "100000010000000"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "何笃兵",
+          "lastLocation": [113.635823, 22.426324],
+          "id": "7fc1699a16d34f4e93667ae51ffa6542",
+          "type": "user",
+          "dataLevel": "100000010000000"
+        }
+      ]
+    },
+    {
+      "unitName": "博罗罗浮山",
+      "items": [
+        {
+          "lastTime": "10:39:22",
+          "name": "曾福新",
+          "lastLocation": [113.983138, 23.239078],
+          "id": "8b0be7e8a3284e17ac998fea8a9f2d4b",
+          "type": "user",
+          "dataLevel": "100000016000008"
+        },
+        {
+          "lastTime": "10:39:10",
+          "name": "邱光杰",
+          "lastLocation": [114.229209, 23.267139],
+          "id": "826a6b3304bb46bfa176137cfb9d9855",
+          "type": "user",
+          "dataLevel": "100000016000010"
+        },
+        {
+          "lastTime": "10:39:16",
+          "name": "陈国辉",
+          "lastLocation": [113.910072, 23.256192],
+          "id": "3ae93697e506485388776173693e4986",
+          "type": "user",
+          "dataLevel": "100000016000010"
+        }
+      ]
+    },
+    {
+      "unitName": "车八岭",
+      "items": [
+        {
+          "lastTime": "10:39:27",
+          "name": "卢李荣",
+          "lastLocation": [114.258963, 24.722127],
+          "id": "354752b307a847a7874555d261a3c3c1",
+          "type": "user",
+          "dataLevel": "100000025002001"
+        },
+        {
+          "lastTime": "10:39:32",
+          "name": "涂立森",
+          "lastLocation": [114.260803, 24.724915],
+          "id": "25236727fab749fbba9d0a7e782bdb86",
+          "type": "user",
+          "dataLevel": "100000025002002"
+        }
+      ]
+    },
+    {
+      "unitName": "恩平七星坑",
+      "items": [
+        {
+          "lastTime": "10:39:13",
+          "name": "李金荣",
+          "lastLocation": [112.073689, 22.171852],
+          "id": "98deccf9d69047719f85eae3a0f70d18",
+          "type": "user",
+          "dataLevel": "100000014002002"
+        },
+        {
+          "lastTime": "10:39:12",
+          "name": "冯亦才",
+          "lastLocation": [112.067236, 22.212218],
+          "id": "1e83dec114224114a50694c5d946bb5f",
+          "type": "user",
+          "dataLevel": "100000014002003"
+        },
+        {
+          "lastTime": "10:39:24",
+          "name": "李西洋",
+          "lastLocation": [112.067271, 22.21222],
+          "id": "f96c42d6af4f4e86ba9691889818882c",
+          "type": "user",
+          "dataLevel": "100000014002003"
+        },
+        {
+          "lastTime": "10:39:20",
+          "name": "李溢聪",
+          "lastLocation": [112.07362, 22.171808],
+          "id": "5c6d2872536c40f2b2693c6f13abceeb",
+          "type": "user",
+          "dataLevel": "100000014002002"
+        },
+        {
+          "lastTime": "10:39:12",
+          "name": "李连喜",
+          "lastLocation": [112.104633, 22.185124],
+          "id": "9e8220d325374a4492c3f57e4ba3093d",
+          "type": "user",
+          "dataLevel": "100000014002001"
+        },
+        {
+          "lastTime": "10:39:17",
+          "name": "李连德",
+          "lastLocation": [112.104547, 22.185102],
+          "id": "89489db50b884c4a8f4fea088a0e455b",
+          "type": "user",
+          "dataLevel": "100000014002001"
+        },
+        {
+          "lastTime": "10:39:31",
+          "name": "梁光锐",
+          "lastLocation": [112.104288, 22.185198],
+          "id": "e2162856cf6141cfad6ba66aa35b71ac",
+          "type": "user",
+          "dataLevel": "100000014002000"
+        },
+        {
+          "lastTime": "10:39:19",
+          "name": "冯少茂",
+          "lastLocation": [112.104592, 22.185085],
+          "id": "027c3c65c6d540f2917d100d99e35da4",
+          "type": "user",
+          "dataLevel": "100000014002000"
+        },
+        {
+          "lastTime": "10:39:31",
+          "name": "岑国明",
+          "lastLocation": [112.104524, 22.185151],
+          "id": "b9cd736c6622429b894e90bbf663558f",
+          "type": "user",
+          "dataLevel": "100000014002001"
+        }
+      ]
+    },
+    {
+      "unitName": "秤架管理处",
+      "items": [
+        {
+          "lastTime": "10:39:24",
+          "name": "庞代城",
+          "lastLocation": [112.87444699999998, 24.855616],
+          "id": "ae099069309c4327ba1e8a3f05c66459",
+          "type": "user",
+          "dataLevel": "100000025000002010"
+        },
+        {
+          "lastTime": "10:39:28",
+          "name": "伍小营",
+          "lastLocation": [112.866864, 24.757284],
+          "id": "2c92ae6e6ccd7504016cd80c4ef82abf",
+          "type": "user",
+          "dataLevel": "100000025000002000"
+        },
+        {
+          "lastTime": "10:39:32",
+          "name": "黄远庭",
+          "lastLocation": [112.962032, 24.833845],
+          "id": "92f062885390408185f627c8eed5f000",
+          "type": "user",
+          "dataLevel": "100000025000002003"
+        },
+        {
+          "lastTime": "10:38:43",
+          "name": "黄宣雅",
+          "lastLocation": [113.001683, 24.876331],
+          "id": "1c02597730854dfc86c2ec0663a8ef21",
+          "type": "user",
+          "dataLevel": "100000025000002003"
+        },
+        {
+          "lastTime": "10:39:13",
+          "name": "黄永雄",
+          "lastLocation": [112.948256, 24.897975],
+          "id": "0557fca4c9984080b86735acfa177af1",
+          "type": "user",
+          "dataLevel": "100000025000002002"
+        },
+        {
+          "lastTime": "10:39:24",
+          "name": "钟文富",
+          "lastLocation": [112.995431, 24.857109],
+          "id": "c658a00cbbf945aa8e69f1ce4711d0cb",
+          "type": "user",
+          "dataLevel": "100000025000002003"
+        },
+        {
+          "lastTime": "10:39:37",
+          "name": "黄玉文",
+          "lastLocation": [112.995509, 24.876015],
+          "id": "115ad37b3cb84abdb03e372383751aec",
+          "type": "user",
+          "dataLevel": "100000025000002008"
+        },
+        {
+          "lastTime": "10:39:31",
+          "name": "黄扬春",
+          "lastLocation": [112.95071, 24.849763],
+          "id": "f91383c909ab48d9a34aa2a708721c20",
+          "type": "user",
+          "dataLevel": "100000025000002003"
+        },
+        {
+          "lastTime": "10:39:10",
+          "name": "黄秋贵",
+          "lastLocation": [112.956263, 24.899456],
+          "id": "30481c7177454c9486a107aa0100963f",
+          "type": "user",
+          "dataLevel": "100000025000002002"
+        },
+        {
+          "lastTime": "10:39:20",
+          "name": "黄东明",
+          "lastLocation": [112.877543, 24.855928],
+          "id": "36d2a6813025475784a70d35a0e36244",
+          "type": "user",
+          "dataLevel": "100000025000002010"
+        },
+        {
+          "lastTime": "10:39:37",
+          "name": "黄剑华",
+          "lastLocation": [112.877514, 24.855976],
+          "id": "dc35e223a9b0485a8a07fa31e0a32382",
+          "type": "user",
+          "dataLevel": "100000025000002010"
+        },
+        {
+          "lastTime": "10:39:28",
+          "name": "黄诗文",
+          "lastLocation": [112.967725, 24.894971],
+          "id": "b2c2a7a314d647fd9a42dbcfe1c07c1a",
+          "type": "user",
+          "dataLevel": "100000025000002001"
+        }
+      ]
+    },
+    {
+      "unitName": "封开黑石顶",
+      "items": [
+        {
+          "lastTime": "10:39:15",
+          "name": "叶志平",
+          "lastLocation": [111.909715, 23.462129],
+          "id": "a450383dc6434d30a0b94da6930403c0",
+          "type": "user",
+          "dataLevel": "100000013000002"
+        },
+        {
+          "lastTime": "10:39:29",
+          "name": "黄银龙",
+          "lastLocation": [111.857504, 23.415866],
+          "id": "89bf5b556eca42c0bdb955eb84189165",
+          "type": "user",
+          "dataLevel": "100000013000003"
+        },
+        {
+          "lastTime": "10:39:04",
+          "name": "李伟锋",
+          "lastLocation": [111.85671, 23.415444],
+          "id": "e0ccea13f9b540648de90a9fb4b8d407",
+          "type": "user",
+          "dataLevel": "100000013000003"
+        },
+        {
+          "lastTime": "10:39:17",
+          "name": "叶爱英",
+          "lastLocation": [111.909406, 23.462027],
+          "id": "eb481dd1e91e4bd3be70fa3641250ca7",
+          "type": "user",
+          "dataLevel": "100000013000001"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "伍炳光",
+          "lastLocation": [111.909471, 23.462109],
+          "id": "470d1e2233dc4b6da20ecb7064381a01",
+          "type": "user",
+          "dataLevel": "100000013000001"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "叶红芳",
+          "lastLocation": [111.909494, 23.462204],
+          "id": "9109659920464c3b8092ca3ab01e9d41",
+          "type": "user",
+          "dataLevel": "100000013000004"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "黄中福",
+          "lastLocation": [111.837468, 23.42883],
+          "id": "34c99eb2079d422abdc1a26eabaf01b7",
+          "type": "user",
+          "dataLevel": "100000013000003"
+        }
+      ]
+    },
+    {
+      "unitName": "连州田心",
+      "items": [
+        {
+          "lastTime": "10:39:36",
+          "name": "邝国强",
+          "lastLocation": [112.337993, 25.10186],
+          "id": "4e42ebe3fa564bb4962637df6ba544c6",
+          "type": "user",
+          "dataLevel": "100000021003001"
+        },
+        {
+          "lastTime": "10:39:38",
+          "name": "赵新建",
+          "lastLocation": [112.338128, 25.102284],
+          "id": "554d7f521237448db57413b4cc9a329b",
+          "type": "user",
+          "dataLevel": "100000021003001"
+        },
+        {
+          "lastTime": "10:39:24",
+          "name": "廖文辉",
+          "lastLocation": [112.33809, 25.101826],
+          "id": "0defd213724c487f96d8e908f58126df",
+          "type": "user",
+          "dataLevel": "100000021003001"
+        },
+        {
+          "lastTime": "10:39:31",
+          "name": "黄少林",
+          "lastLocation": [112.338021, 25.101865],
+          "id": "0f09e32be58343069f2478fbbfc6ae87",
+          "type": "user",
+          "dataLevel": "100000021003001"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "赵观兴",
+          "lastLocation": [112.338009, 25.101941],
+          "id": "34b4e4126c2f42ef9801fd7bf33edd65",
+          "type": "user",
+          "dataLevel": "100000021003001"
+        },
+        {
+          "lastTime": "10:39:35",
+          "name": "邓建友",
+          "lastLocation": [112.396622, 25.113802],
+          "id": "db4e2470489c40709c3e38706004f957",
+          "type": "user",
+          "dataLevel": "100000021003003"
+        },
+        {
+          "lastTime": "10:39:33",
+          "name": "赵国辉",
+          "lastLocation": [112.393759, 25.112144],
+          "id": "163dff96a1ad4fe58908b247d87da06e",
+          "type": "user",
+          "dataLevel": "100000021003003"
+        },
+        {
+          "lastTime": "10:39:33",
+          "name": "李海波",
+          "lastLocation": [112.393834, 25.11216],
+          "id": "f06dbb3ed2594fb2958299d3f4990518",
+          "type": "user",
+          "dataLevel": "100000021003003"
+        }
+      ]
+    },
+    {
+      "unitName": "阳春鹅凰嶂",
+      "items": [
+        {
+          "lastTime": "10:39:15",
+          "name": "王德标",
+          "lastLocation": [111.385033, 21.876085],
+          "id": "7e377eb54b5649d6830097a600e980fb",
+          "type": "user",
+          "dataLevel": "100000020001003"
+        },
+        {
+          "lastTime": "10:39:31",
+          "name": "王昭佳",
+          "lastLocation": [111.385062, 21.876072],
+          "id": "6bb48a3e70344548887d11db375acf0f",
+          "type": "user",
+          "dataLevel": "100000020001003"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "林武",
+          "lastLocation": [111.442633, 21.891456],
+          "id": "42e4038a303c45419dcf78d077c0de82",
+          "type": "user",
+          "dataLevel": "100000020001006"
+        },
+        {
+          "lastTime": "10:39:23",
+          "name": "曾洁华",
+          "lastLocation": [111.543243, 21.928537],
+          "id": "9bd7a6e5a5b3428e8b2a89f583073c7e",
+          "type": "user",
+          "dataLevel": "100000020001007"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "陈科雄",
+          "lastLocation": [111.42633, 21.950009],
+          "id": "86e24a86eb774c8195887fd92656d4af",
+          "type": "user",
+          "dataLevel": "100000020001003"
+        },
+        {
+          "lastTime": "10:38:51",
+          "name": "吴志强",
+          "lastLocation": [111.513219, 21.97002],
+          "id": "55739f13e8164da38d090bd9c057bbcd",
+          "type": "user",
+          "dataLevel": "100000020001001"
+        },
+        {
+          "lastTime": "10:39:30",
+          "name": "陈团忠",
+          "lastLocation": [111.500051, 21.900289],
+          "id": "5a9cc5754d284e34bc87cb263057e6e1",
+          "type": "user",
+          "dataLevel": "100000020001002"
+        },
+        {
+          "lastTime": "10:39:19",
+          "name": "张亮计",
+          "lastLocation": [111.515259, 21.986985],
+          "id": "e5610b12007647898e04d1b5b2776d35",
+          "type": "user",
+          "dataLevel": "100000020001001"
+        },
+        {
+          "lastTime": "10:39:16",
+          "name": "黄春菊",
+          "lastLocation": [111.443042, 21.894237],
+          "id": "b63d8c12634d420db04fb0a7ca7c719a",
+          "type": "user",
+          "dataLevel": "100000020001006"
+        },
+        {
+          "lastTime": "10:39:37",
+          "name": "王昭岸",
+          "lastLocation": [111.441144, 21.89109],
+          "id": "6dc219e23de54b16a8e07ba3cbcb1b26",
+          "type": "user",
+          "dataLevel": "100000020001006"
+        },
+        {
+          "lastTime": "10:39:33",
+          "name": "黄凤兰",
+          "lastLocation": [111.443038, 21.894236],
+          "id": "338f1a85f2974b91a44365552368e4f8",
+          "type": "user",
+          "dataLevel": "100000020001006"
+        },
+        {
+          "lastTime": "10:39:36",
+          "name": "陈相适",
+          "lastLocation": [111.515456, 21.987102],
+          "id": "d92194ea03854abc86c55148287e02bb",
+          "type": "user",
+          "dataLevel": "100000020001001"
+        },
+        {
+          "lastTime": "10:38:52",
+          "name": "罗世标",
+          "lastLocation": [111.535485, 21.927847],
+          "id": "2c92ae6e66edbd5701674ef865885094",
+          "type": "user",
+          "dataLevel": "100000020001000"
+        },
+        {
+          "lastTime": "10:39:26",
+          "name": "吴泽旺",
+          "lastLocation": [111.49995, 21.900177],
+          "id": "9e83e616974748b899db8507cf0655f4",
+          "type": "user",
+          "dataLevel": "100000020001002"
+        },
+        {
+          "lastTime": "10:39:24",
+          "name": "黄国雄",
+          "lastLocation": [111.511184, 21.970904],
+          "id": "e6f9d771653b4dadbae19f3032caf124",
+          "type": "user",
+          "dataLevel": "100000020001001"
+        }
+      ]
+    },
+    {
+      "unitName": "乳源大峡谷",
+      "items": [
+        {
+          "lastTime": "10:39:33",
+          "name": "许根有",
+          "lastLocation": [113.145245, 24.537173],
+          "id": "2c92ae7066edbfc201674f0b8f290c4e",
+          "type": "user",
+          "dataLevel": "100000012005000"
+        },
+        {
+          "lastTime": "10:39:26",
+          "name": "曾旭科",
+          "lastLocation": [113.145239, 24.537246],
+          "id": "f92fdd1738654a05b29cca452dce8ac5",
+          "type": "user",
+          "dataLevel": "100000012005003"
+        },
+        {
+          "lastTime": "10:39:39",
+          "name": "张堪发",
+          "lastLocation": [113.145241, 24.537414],
+          "id": "4fae3fe31a4b4a4d959ccfa69c3bf094",
+          "type": "user",
+          "dataLevel": "100000012005003"
+        }
+      ]
+    },
+    {
+      "unitName": "梅县阴那山",
+      "items": [
+        {
+          "lastTime": "10:39:19",
+          "name": "李赞敏",
+          "lastLocation": [116.386576, 24.400674],
+          "id": "da5485a060b440f492cfb76e5cce58fa",
+          "type": "user",
+          "dataLevel": "100000017002001"
+        }
+      ]
+    },
+    {
+      "unitName": "东源康禾",
+      "items": [
+        {
+          "lastTime": "10:39:08",
+          "name": "何金权",
+          "lastLocation": [115.101707, 23.863345],
+          "id": "60b76befec3041028ba79f545d9fe243",
+          "type": "user",
+          "dataLevel": "100000019000000"
+        }
+      ]
+    },
+    {
+      "unitName": "龙门南昆山",
+      "items": [
+        {
+          "lastTime": "10:39:32",
+          "name": "朱文辉",
+          "lastLocation": [113.851615, 23.637951],
+          "id": "2c92ae6e66edbc2501674eea4f3f76ec",
+          "type": "user",
+          "dataLevel": "100000016003000"
+        },
+        {
+          "lastTime": "10:39:39",
+          "name": "钟燕霞",
+          "lastLocation": [113.866973, 23.613853],
+          "id": "f994078ff2b849749dbfaf1748fb6b1e",
+          "type": "user",
+          "dataLevel": "100000016003000"
+        },
+        {
+          "lastTime": "10:39:14",
+          "name": "曾锦东",
+          "lastLocation": [113.866973, 23.613853],
+          "id": "7221bcaa1b724545ab3ff6c56e5b9813",
+          "type": "user",
+          "dataLevel": "100000016003000"
+        },
+        {
+          "lastTime": "10:39:17",
+          "name": "刘小华",
+          "lastLocation": [113.851458, 23.63806],
+          "id": "10d8665c834a42c39b2ae59ec55d04ee",
+          "type": "user",
+          "dataLevel": "100000016003000"
+        },
+        {
+          "lastTime": "10:39:25",
+          "name": "张一圣",
+          "lastLocation": [113.851419, 23.638134],
+          "id": "cc7a8a2e638d44708aa1e4b048fcac5a",
+          "type": "user",
+          "dataLevel": "100000016003000"
+        }
+      ]
+    },
+    {
+      "unitName": "大东山管理处",
+      "items": [
+        {
+          "lastTime": "10:39:37",
+          "name": "李卫坚",
+          "lastLocation": [112.718993, 24.93008],
+          "id": "5a8ac500cc9c4933bafc1364718e9e6b",
+          "type": "user",
+          "dataLevel": "100000025000003002"
+        }
+      ]
+    },
+    {
+      "unitName": "清新白湾",
+      "items": [
+        {
+          "lastTime": "10:39:34",
+          "name": "黎少平",
+          "lastLocation": [112.81334, 24.23253],
+          "id": "e355ad18a6f3486ca63e7c35b854b666",
+          "type": "user",
+          "dataLevel": "100000021004001"
+        },
+        {
+          "lastTime": "10:39:16",
+          "name": "陈建初",
+          "lastLocation": [112.759898, 24.231885],
+          "id": "4314e84f11e14cc7a4aea574be958cc0",
+          "type": "user",
+          "dataLevel": "100000021004001"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "陈神妹",
+          "lastLocation": [112.822416, 24.246974],
+          "id": "3d210e82c8894ff78bcd7c8ad743f6d6",
+          "type": "user",
+          "dataLevel": "100000021004001"
+        },
+        {
+          "lastTime": "10:39:14",
+          "name": "陈国其",
+          "lastLocation": [112.764579, 24.20898],
+          "id": "73db1f89bfca4d948b2fb40bb6f927bc",
+          "type": "user",
+          "dataLevel": "100000021004001"
+        }
+      ]
+    },
+    {
+      "unitName": "曲江沙溪",
+      "items": [
+        {
+          "lastTime": "10:39:23",
+          "name": "朱卫兵",
+          "lastLocation": [113.706557, 24.606126],
+          "id": "e21cbc0214074e9985dd0809fefed6a7",
+          "type": "user",
+          "dataLevel": "100000012003000"
+        },
+        {
+          "lastTime": "10:39:30",
+          "name": "曾忠东",
+          "lastLocation": [113.740129, 24.627955],
+          "id": "09b3627c706045669ea523441e889a5d",
+          "type": "user",
+          "dataLevel": "100000012003001"
+        },
+        {
+          "lastTime": "10:39:11",
+          "name": "谢伦杰",
+          "lastLocation": [113.739417, 24.623551],
+          "id": "ce79e46950864e7f9aef9e925dab45d0",
+          "type": "user",
+          "dataLevel": "100000012003001"
+        },
+        {
+          "lastTime": "10:39:33",
+          "name": "饶观峰",
+          "lastLocation": [113.71856, 24.632708],
+          "id": "b52acde86c71428a9d3f7581f09ab46a",
+          "type": "user",
+          "dataLevel": "100000012003001"
+        },
+        {
+          "lastTime": "10:39:08",
+          "name": "游学贵",
+          "lastLocation": [113.730935, 24.624033],
+          "id": "6b8b291958b6495da86fd130bbf8848d",
+          "type": "user",
+          "dataLevel": "100000012003001"
+        },
+        {
+          "lastTime": "10:39:15",
+          "name": "何学祥",
+          "lastLocation": [113.739732, 24.628037],
+          "id": "f5698886cc1c41e3a490c9007f616eae",
+          "type": "user",
+          "dataLevel": "100000012003001"
+        },
+        {
+          "lastTime": "10:39:30",
+          "name": "叶小强",
+          "lastLocation": [113.718477, 24.632715],
+          "id": "ac927a1b83d34e6a930306ed1d1c8870",
+          "type": "user",
+          "dataLevel": "100000012003001"
+        },
+        {
+          "lastTime": "10:39:33",
+          "name": "钟韶",
+          "lastLocation": [113.737224, 24.638802],
+          "id": "c98f671a01ca4c74a040ac8b6b06e4bc",
+          "type": "user",
+          "dataLevel": "100000012003001"
+        },
+        {
+          "lastTime": "10:39:21",
+          "name": "黎东成",
+          "lastLocation": [113.730868, 24.624048],
+          "id": "08af76c3ce3648fca5eebcf0f3477333",
+          "type": "user",
+          "dataLevel": "100000012003001"
+        }
+      ]
+    },
+    {
+      "unitName": "怀集大稠顶",
+      "items": [
+        {
+          "lastTime": "10:39:33",
+          "name": "莫铁牛",
+          "lastLocation": [112.398781, 24.232551],
+          "id": "2c92ae7066edbecd01674eed61c015df",
+          "type": "user",
+          "dataLevel": "100000013001000"
+        },
+        {
+          "lastTime": "10:39:14",
+          "name": "林洪双",
+          "lastLocation": [112.398659, 24.232638],
+          "id": "ef7763db53df4b51a80eb828447a4b59",
+          "type": "user",
+          "dataLevel": "100000013001000"
+        },
+        {
+          "lastTime": "10:38:54",
+          "name": "杜龙龙",
+          "lastLocation": [112.39875, 24.232571],
+          "id": "7ca3aa21bb4d4f239aab056a4291aa80",
+          "type": "user",
+          "dataLevel": "100000013001000"
+        },
+        {
+          "lastTime": "10:39:06",
+          "name": "罗仕标",
+          "lastLocation": [112.402447, 24.260977],
+          "id": "caace9ed475e48eea1a4037d6a9c8267",
+          "type": "user",
+          "dataLevel": "100000013001002"
+        }
+      ]
+    },
+    {
+      "unitName": "连山笔架山",
+      "items": [
+        {
+          "lastTime": "10:39:13",
+          "name": "韦经展",
+          "lastLocation": [112.037481, 24.252877],
+          "id": "78c63f98468b4833850985e1426e0f64",
+          "type": "user",
+          "dataLevel": "100000021002002"
+        }
+      ]
+    },
+    {
+      "unitName": "惠东莲花山白盆珠",
+      "items": [
+        {
+          "lastTime": "10:39:13",
+          "name": "钟金华",
+          "lastLocation": [115.1913, 23.107248],
+          "id": "72f9bff48ec247a3889cee4bb608dc94",
+          "type": "user",
+          "dataLevel": "100000016002002"
+        },
+        {
+          "lastTime": "10:39:03",
+          "name": "雷玉培",
+          "lastLocation": [115.197922, 23.117835],
+          "id": "3612da5343c2442f8ae6d67f2efbfb9c",
+          "type": "user",
+          "dataLevel": "100000016002001"
+        },
+        {
+          "lastTime": "10:39:12",
+          "name": "刘同泳",
+          "lastLocation": [115.17439, 23.093287],
+          "id": "4c672abf5c254c0292bcd98b132721a1",
+          "type": "user",
+          "dataLevel": "100000016002001"
+        },
+        {
+          "lastTime": "10:39:19",
+          "name": "刘娘发",
+          "lastLocation": [115.175046, 23.093124],
+          "id": "c08c60b50a9149279f526de185adffaf",
+          "type": "user",
+          "dataLevel": "100000016002002"
+        },
+        {
+          "lastTime": "10:39:22",
+          "name": "钟伟华",
+          "lastLocation": [115.195079, 23.117639],
+          "id": "2c92ae6e66edbd5701674ee85f0d5040",
+          "type": "user",
+          "dataLevel": "100000016002001"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "赖和顺",
+          "lastLocation": [115.190955, 23.079979],
+          "id": "93bb0180521f4cba969e741036539286",
+          "type": "user",
+          "dataLevel": "100000016002001"
+        }
+      ]
+    },
+    {
+      "unitName": "西江烂柯山",
+      "items": [
+        {
+          "lastTime": "10:39:10",
+          "name": "廖海锋",
+          "lastLocation": [112.708932, 23.082553],
+          "id": "747f7f3b0a1649979c2820f33ad6c49d",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:11",
+          "name": "康有辉",
+          "lastLocation": [112.670494, 23.120206],
+          "id": "c7fdb678370e4e25ae4482d2d4cd0fa9",
+          "type": "user",
+          "dataLevel": "100000013003001"
+        },
+        {
+          "lastTime": "10:39:29",
+          "name": "麦伟明",
+          "lastLocation": [112.660592, 23.140954],
+          "id": "d7fb235145924b58b852e8c473c3d29a",
+          "type": "user",
+          "dataLevel": "100000013003001"
+        },
+        {
+          "lastTime": "10:39:28",
+          "name": "张金林",
+          "lastLocation": [112.602941, 23.140116],
+          "id": "48609886e8734a3695784fa8a00c03de",
+          "type": "user",
+          "dataLevel": "100000013003001"
+        },
+        {
+          "lastTime": "10:39:18",
+          "name": "申泽洪",
+          "lastLocation": [112.744778, 23.110534],
+          "id": "20cd3e054af14d9e9be232f144f71458",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:14",
+          "name": "陈　光",
+          "lastLocation": [112.665859, 23.063766],
+          "id": "f8380b79ac5c4d778ef6ecf39f67d08a",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:29",
+          "name": "申伟聪",
+          "lastLocation": [112.765768, 23.120715],
+          "id": "acbeae564f90443b9f34c320fd61f4c8",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:38:45",
+          "name": "李泽民",
+          "lastLocation": [112.661148, 23.07296],
+          "id": "e3c2d8e6ba2f49d2878eee22dbfe3bd4",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:23",
+          "name": "戴华庆",
+          "lastLocation": [112.621173, 23.145438],
+          "id": "c16a59732b514859bb47bc74e2957b80",
+          "type": "user",
+          "dataLevel": "100000013003001"
+        },
+        {
+          "lastTime": "10:39:27",
+          "name": "梁伟文",
+          "lastLocation": [112.603012, 23.140121],
+          "id": "5faf497802d4476594ca848309bf7de6",
+          "type": "user",
+          "dataLevel": "100000013003001"
+        },
+        {
+          "lastTime": "10:39:15",
+          "name": "冯萃贤",
+          "lastLocation": [112.718568, 23.089849],
+          "id": "0d69ba0da4914d249b2276884e58b21d",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:30",
+          "name": "李德顺",
+          "lastLocation": [112.661429, 23.073642],
+          "id": "6fc75e4b25eb48738f61f574da8f731e",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "伍毅",
+          "lastLocation": [112.566902, 23.155075],
+          "id": "0ebbed27de8f45c285881e3006a640e8",
+          "type": "user",
+          "dataLevel": "100000013003000"
+        },
+        {
+          "lastTime": "10:39:14",
+          "name": "李均明",
+          "lastLocation": [112.602988, 23.140168],
+          "id": "6587e2e2aaf84ea39f2b17509e976b32",
+          "type": "user",
+          "dataLevel": "100000013003001"
+        },
+        {
+          "lastTime": "10:39:16",
+          "name": "张松涛",
+          "lastLocation": [112.659879, 23.073688],
+          "id": "c91cb0a98349480a9d38ccbcc4760c12",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:25",
+          "name": "廖军学",
+          "lastLocation": [112.574118, 23.061457],
+          "id": "6a5e6b37ddd04a58af36fa1b2ee5cc4d",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:37",
+          "name": "倪炳焕",
+          "lastLocation": [112.766011, 23.121464],
+          "id": "9fa8c7ba32044bcaafcbbb1c18bca568",
+          "type": "user",
+          "dataLevel": "100000013003002"
+        },
+        {
+          "lastTime": "10:39:25",
+          "name": "张运宏",
+          "lastLocation": [112.602976, 23.140148],
+          "id": "15909c0b275e47af81f40d133d51fd94",
+          "type": "user",
+          "dataLevel": "100000013003001"
+        }
+      ]
+    },
+    {
+      "unitName": "五华七目嶂",
+      "items": [
+        {
+          "lastTime": "10:39:22",
+          "name": "张志勇",
+          "lastLocation": [115.416005, 23.847699],
+          "id": "6cf327bcf2484a58954584f3877db0c8",
+          "type": "user",
+          "dataLevel": "100000017004001"
+        }
+      ]
+    },
+    {
+      "unitName": "大顶山管理处",
+      "items": [
+        {
+          "lastTime": "10:39:28",
+          "name": "黄春华",
+          "lastLocation": [113.037439, 24.686426],
+          "id": "60bf41239a664b128e7ba152caf91201",
+          "type": "user",
+          "dataLevel": "100000025000004000"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "高华业",
+          "lastLocation": [113.037344, 24.686648],
+          "id": "9ea89083b8e84b14bd89870c1c4c3d03",
+          "type": "user",
+          "dataLevel": "100000025000004000"
+        }
+      ]
+    },
+    {
+      "unitName": "湛江红树林",
+      "items": [
+        {
+          "lastTime": "10:39:27",
+          "name": "谢礼保",
+          "lastLocation": [109.761365, 21.56792],
+          "id": "c424d06ec6f242fc871c9eb275a675e2",
+          "type": "user",
+          "dataLevel": "100000025004004"
+        }
+      ]
+    },
+    {
+      "unitName": "平远龙文-黄田",
+      "items": [
+        {
+          "lastTime": "10:39:08",
+          "name": "张广良",
+          "lastLocation": [115.883261, 24.702716],
+          "id": "767cca285f2842b3aefef84a0460aec5",
+          "type": "user",
+          "dataLevel": "100000017003002"
+        },
+        {
+          "lastTime": "10:39:22",
+          "name": "刘京都",
+          "lastLocation": [115.896466, 24.712111],
+          "id": "673f1619d1ee4c45a451e5c265d27c50",
+          "type": "user",
+          "dataLevel": "100000017003002"
+        },
+        {
+          "lastTime": "10:39:35",
+          "name": "吴浪辉",
+          "lastLocation": [115.988032, 24.783014],
+          "id": "ec90dc578b584538a7ac356c4364a48c",
+          "type": "user",
+          "dataLevel": "100000017003001"
+        }
+      ]
+    },
+    {
+      "unitName": "云开山",
+      "items": [
+        {
+          "lastTime": "10:39:13",
+          "name": "李世平",
+          "lastLocation": [111.215374, 22.29175],
+          "id": "5107d734c4314f28b879219f7fec4294",
+          "type": "user",
+          "dataLevel": "100000025005002"
+        },
+        {
+          "lastTime": "10:39:21",
+          "name": "张建保",
+          "lastLocation": [111.234594, 22.249793],
+          "id": "ce7f3d326e424830b26ac7f74a28a07c",
+          "type": "user",
+          "dataLevel": "100000025005003"
+        },
+        {
+          "lastTime": "10:39:15",
+          "name": "张业胜",
+          "lastLocation": [111.189824, 22.251793],
+          "id": "8aba735524144a7089c42bd260a1fcd8",
+          "type": "user",
+          "dataLevel": "100000025005001"
+        }
+      ]
+    },
+    {
+      "unitName": "佛冈观音山",
+      "items": [
+        {
+          "lastTime": "10:39:36",
+          "name": "蓝宗养",
+          "lastLocation": [113.525606, 23.991246],
+          "id": "7a96680eede2487787bae7cc9b8e02e8",
+          "type": "user",
+          "dataLevel": "100000021000001"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "邝建贤",
+          "lastLocation": [113.525376, 23.990864],
+          "id": "5cc37c56c86f4f20931536886fe71061",
+          "type": "user",
+          "dataLevel": "100000021000001"
+        },
+        {
+          "lastTime": "10:39:37",
+          "name": "潘金荣",
+          "lastLocation": [113.580596, 23.934208],
+          "id": "7fbd7b73730f4ae1be2a30c3322fd4bb",
+          "type": "user",
+          "dataLevel": "100000021000003"
+        },
+        {
+          "lastTime": "10:39:13",
+          "name": "李伯赞",
+          "lastLocation": [113.563172, 23.969499],
+          "id": "5ef56b126a0b41d785a460bba8e4ed23",
+          "type": "user",
+          "dataLevel": "100000021000002"
+        },
+        {
+          "lastTime": "10:39:34",
+          "name": "李水根",
+          "lastLocation": [113.56337, 23.969949],
+          "id": "1ed997ab2ffa4b9ebdfe521fdd4d2df3",
+          "type": "user",
+          "dataLevel": "100000021000002"
+        },
+        {
+          "lastTime": "10:39:30",
+          "name": "李功炮",
+          "lastLocation": [113.563533, 23.969185],
+          "id": "6b80e14a2f6c42528a1864d0a235fd3a",
+          "type": "user",
+          "dataLevel": "100000021000002"
+        },
+        {
+          "lastTime": "10:39:38",
+          "name": "黄榕朝",
+          "lastLocation": [113.500924, 23.94714],
+          "id": "77628edc58a14b4c86691d7d3bd5bb76",
+          "type": "user",
+          "dataLevel": "100000021000004"
+        }
+      ]
+    },
+    {
+      "unitName": "惠州象头山",
+      "items": [
+        {
+          "lastTime": "10:39:28",
+          "name": "李钦灵",
+          "lastLocation": [114.346182, 23.281059],
+          "id": "0d34dd5920634468a86d340ccca5b2f8",
+          "type": "user",
+          "dataLevel": "100000025006005"
+        },
+        {
+          "lastTime": "10:39:23",
+          "name": "曾志祥",
+          "lastLocation": [114.418615, 23.235722],
+          "id": "521db1d661af4806b3cf052dd134a346",
+          "type": "user",
+          "dataLevel": "100000025006004"
+        },
+        {
+          "lastTime": "10:39:12",
+          "name": "魏贵梅",
+          "lastLocation": [114.468295, 23.278672],
+          "id": "caddcbf5577d47d4afb95854a86dbb96",
+          "type": "user",
+          "dataLevel": "100000025006002"
+        },
+        {
+          "lastTime": "10:39:09",
+          "name": "钟志华",
+          "lastLocation": [114.418596, 23.235696],
+          "id": "eef7f4dea9604fa28dce0227d0a4602f",
+          "type": "user",
+          "dataLevel": "100000025006004"
+        },
+        {
+          "lastTime": "10:39:34",
+          "name": "钟志康",
+          "lastLocation": [114.445157, 23.263243],
+          "id": "61eb846370f64ceaaf23c1870a8ecd39",
+          "type": "user",
+          "dataLevel": "100000025006003"
+        },
+        {
+          "lastTime": "10:39:13",
+          "name": "邱新添",
+          "lastLocation": [114.332474, 23.314096],
+          "id": "a5abf92a0c9f4b4485a5417df29cff48",
+          "type": "user",
+          "dataLevel": "100000025006006"
+        },
+        {
+          "lastTime": "10:39:21",
+          "name": "钟绍雄",
+          "lastLocation": [114.459163, 23.290468],
+          "id": "0f20c33aae7a49b5abf77794b8c497ec",
+          "type": "user",
+          "dataLevel": "100000025006002"
+        }
+      ]
+    },
+    {
+      "unitName": "始兴南山",
+      "items": [
+        {
+          "lastTime": "10:39:27",
+          "name": "冯学勇",
+          "lastLocation": [113.962359, 24.916574],
+          "id": "2a26e54bc88e4dca9bdaa8acba646f87",
+          "type": "user",
+          "dataLevel": "100000012006002"
+        },
+        {
+          "lastTime": "10:39:28",
+          "name": "黄阶军",
+          "lastLocation": [113.9626, 24.916646],
+          "id": "dd7f6671991a4ec392bd6059641c7bcf",
+          "type": "user",
+          "dataLevel": "100000012006002"
+        },
+        {
+          "lastTime": "10:39:25",
+          "name": "魏家纯",
+          "lastLocation": [113.962719, 24.916473],
+          "id": "a8674b3ae36a426a9fa5ffc74cde85e3",
+          "type": "user",
+          "dataLevel": "100000012006002"
+        }
+      ]
+    },
+    {
+      "unitName": "连平黄牛石",
+      "items": [
+        {
+          "lastTime": "10:39:31",
+          "name": "何东其",
+          "lastLocation": [114.46124, 24.462055],
+          "id": "f6d78f87c0bd41938d30a7e11e378a7c",
+          "type": "user",
+          "dataLevel": "100000019004001"
+        },
+        {
+          "lastTime": "10:39:11",
+          "name": "卓房育",
+          "lastLocation": [114.459304, 24.427612],
+          "id": "d6c70255fa9d4dd99319fe91228e072f",
+          "type": "user",
+          "dataLevel": "100000019004004"
+        },
+        {
+          "lastTime": "10:39:29",
+          "name": "姜桂阳",
+          "lastLocation": [114.46115, 24.461824],
+          "id": "97ebafa9163841f093547a2d502c1771",
+          "type": "user",
+          "dataLevel": "100000019004001"
+        }
+      ]
+    },
+    {
+      "unitName": "龙川枫树坝",
+      "items": [
+        {
+          "lastTime": "10:39:28",
+          "name": "刘文权",
+          "lastLocation": [115.343728, 24.597321],
+          "id": "effb723a0b28430baa5ff912c09ab987",
+          "type": "user",
+          "dataLevel": "100000019005001"
+        },
+        {
+          "lastTime": "10:39:10",
+          "name": "杨龙广",
+          "lastLocation": [115.354042, 24.481619],
+          "id": "45f783bd071649aba6b607765449499b",
+          "type": "user",
+          "dataLevel": "100000019005001"
+        }
+      ]
+    },
+    {
+      "unitName": "翁源青云山",
+      "items": [
+        {
+          "lastTime": "10:39:14",
+          "name": "黄桂浪",
+          "lastLocation": [114.192877, 24.310119],
+          "id": "2c92ae6e6764240a016787896b5515a0",
+          "type": "user",
+          "dataLevel": "100000012007003"
+        },
+        {
+          "lastTime": "10:39:37",
+          "name": "陈流保",
+          "lastLocation": [114.179749, 24.254028],
+          "id": "b1c53bbebd2b4d758fbc9459d5adefa1",
+          "type": "user",
+          "dataLevel": "100000012007000"
+        },
+        {
+          "lastTime": "10:39:16",
+          "name": "黄远东",
+          "lastLocation": [114.192872, 24.30999],
+          "id": "4b15ffb3043347d496688e3ce23800d6",
+          "type": "user",
+          "dataLevel": "100000012007003"
+        },
+        {
+          "lastTime": "10:39:21",
+          "name": "钟行乐",
+          "lastLocation": [114.130087, 24.326668],
+          "id": "847b6083f6c24b5490c581124b990973",
+          "type": "user",
+          "dataLevel": "100000012007001"
+        }
+      ]
+    },
+    {
+      "unitName": "新丰云髻山",
+      "items": [
+        {
+          "lastTime": "10:39:36",
+          "name": "朱配广",
+          "lastLocation": [114.174573, 24.091787],
+          "id": "35f01416445d45f3b671de30645e37b6",
+          "type": "user",
+          "dataLevel": "100000012008002"
+        },
+        {
+          "lastTime": "10:39:25",
+          "name": "陈英战",
+          "lastLocation": [114.172915, 24.088962],
+          "id": "5534d73e32dd4a2aa46db0446ff3ea3e",
+          "type": "user",
+          "dataLevel": "100000012008002"
+        },
+        {
+          "lastTime": "10:39:36",
+          "name": "潘希创",
+          "lastLocation": [114.17461, 24.09259],
+          "id": "8106c26cfa604165a7c824d9f234e435",
+          "type": "user",
+          "dataLevel": "100000012008001"
+        },
+        {
+          "lastTime": "10:39:33",
+          "name": "谢泳波",
+          "lastLocation": [114.174457, 24.092562],
+          "id": "121cb29aa48b43c38230feef1ae4abe0",
+          "type": "user",
+          "dataLevel": "100000012008002"
+        },
+        {
+          "lastTime": "10:39:24",
+          "name": "潘光新",
+          "lastLocation": [114.174592, 24.092589],
+          "id": "9b2fe516edda4418994e3dce9eb6f56f",
+          "type": "user",
+          "dataLevel": "100000012008001"
+        },
+        {
+          "lastTime": "10:39:16",
+          "name": "潘素娟",
+          "lastLocation": [114.171321, 24.085676],
+          "id": "f94296965d584dc88a7d24b492753010",
+          "type": "user",
+          "dataLevel": "100000012008002"
+        }
+      ]
+    },
+    {
+      "unitName": "南雄小流坑－青嶂山",
+      "items": [
+        {
+          "lastTime": "10:39:23",
+          "name": "黄云海",
+          "lastLocation": [114.347342, 25.033949],
+          "id": "7dea391cd2be44299dcf8ce8619c5aa3",
+          "type": "user",
+          "dataLevel": "100000012002003"
+        },
+        {
+          "lastTime": "10:39:10",
+          "name": "何振雄",
+          "lastLocation": [114.351569, 25.035167],
+          "id": "6e8dc021dc8348c9a88e53a32e602e19",
+          "type": "user",
+          "dataLevel": "100000012002003"
+        },
+        {
+          "lastTime": "10:39:35",
+          "name": "黄长庚",
+          "lastLocation": [114.414946, 25.018927],
+          "id": "0f58d64672b34839b2d678bd76436eac",
+          "type": "user",
+          "dataLevel": "100000012002001"
+        }
+      ]
+    },
+    {
+      "unitName": "粤北华南虎",
+      "items": [
+        {
+          "lastTime": "10:39:38",
+          "name": "华新苗",
+          "lastLocation": [113.901291, 25.386718],
+          "id": "c8e62793058a48b9964f8a6ef529c157",
+          "type": "user",
+          "dataLevel": "100000012009002"
+        },
+        {
+          "lastTime": "10:39:18",
+          "name": "梁纪洪",
+          "lastLocation": [113.923899, 25.328351],
+          "id": "bea44077b7784a1c86cbc7359bd2d1b7",
+          "type": "user",
+          "dataLevel": "100000012009002"
+        }
+      ]
+    }
+  ],
+  "status": 200
+}
