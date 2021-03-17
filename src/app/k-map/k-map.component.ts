@@ -16,8 +16,9 @@ import { BaseMapLayers, createTiledXYZLayer } from './model/mapconfig.js'
 })
 export class KMapComponent implements OnInit {
   @Input() mapView = new ol.View({
-    center: [0, 0],
-    zoom: 0,
+    center: [113.3502585130529, 23.137800388869294],
+    zoom: 7,
+    projection: 'EPSG:4326',
   })
   @ViewChild('mapEle', null) mapEle: ElementRef
   @Output() onMapLoaded = new EventEmitter()

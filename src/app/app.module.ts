@@ -48,7 +48,8 @@ import { ScMap2Component } from './map/sc-map2/sc-map2.component'
 import { KMapModule } from './k-map/k-map.module';
 import { RegionControlComponent } from './map/region-control/region-control.component';
 import { ClusterUsersComponent } from './map/cluster-users/cluster-users.component';
-import { AutoRegionLayerComponent } from './map/auto-region-layer/auto-region-layer.component'
+import { AutoRegionLayerComponent } from './map/auto-region-layer/auto-region-layer.component';
+import { TrackMapComponent } from './track-map/track-map.component'
 
 registerLocaleData(zh)
 
@@ -94,6 +95,7 @@ registerLocaleData(zh)
     RegionControlComponent,
     ClusterUsersComponent,
     AutoRegionLayerComponent,
+    TrackMapComponent,
   ],
   imports: [
     BrowserModule,
